@@ -1,0 +1,1654 @@
+[
+    {
+        "type": "workspace-enter",
+        "text-FR": "EspaceDeTravail-entrer",
+        "text-DE": "Arbeitsplatz-eingeben",
+        "text-EN": "Workspace-enter",
+        "text" :"",
+        "style": "green-bold",
+        "attribut": [
+            {
+                "nom": "hasDate",
+                "text-FR": "Date",
+                "text-EN": "Date",
+                "text-DE": "Datum",
+                "text" :"",
+                "style": "DeepPink"
+            },
+            {
+                "nom": "hasTool_WorkspaceName",
+                "text-FR": "Nom_EspaceDeTravail",
+                "text-EN": "Name_Workspace",
+                "text-DE": "Name_Arbeitsplatz",
+                "text" :"",
+                "style": "green-Italic"
+            }
+        ]
+    },
+    {
+        "type": "Click-Zoom-out",
+        "text-FR": "Cliquer-Dézoomer",
+        "text-EN": "Click-Zoom-Out",
+        "text-DE": "Klicken-Zoom-out",
+        "text" :"",
+        "style": "Red-bold",
+        "attribut": [
+            {
+                "nom": "hasDate",
+                "text-FR": "Date",
+                "text-EN": "Date",
+                "text-DE": "Datum",
+                "text" :"",
+                "style": "DeepPink"
+            },
+            {
+                "nom": "hasDocument_Title",
+                "text-FR": "Document_Titre",
+                "text-EN": "Document_Title",
+                "text-DE": "Dokument_Titel",
+                "text" :"",
+                "style": "Blue-bold"
+            },
+            {
+                "nom": "hasDocument_URL",
+                "text-FR": "",
+                "text-EN": "",
+                "text-DE": "",
+                "text" :"",
+                "style": "lien"
+            }
+        ]
+    },
+    {
+        "type": "resource-create",
+        "text-EN": "Resource-Create",
+        "text-DE": "ressource-schaffen",
+        "text-FR": "ressource-créer",
+        "style": "green-bold",
+        "text" :"",
+        "attribut": [
+            {
+                "nom": "hasDate",
+                "text-FR": "Date",
+                "text-EN": "Date",
+                "text-DE": "Datum",
+                "text" :"",
+                "style": "DeepPink"
+            },
+            {
+                "nom": "hasTool_ResourceName",
+                "text-FR": "Nom_Ressource",
+                "text-DE": "Name_Ressource",
+                "text-EN": "Name_Resource",
+                "text" :"",
+                "style": "Maroon"
+            },
+            {
+                "nom": "hasTool_ResourceType",
+                "text-FR": "Type_Ressource",
+                "text-EN": "Type_Resource",
+                "text-DE": "Typ_Ressource",
+                "text" :"",
+                "style": "Purple"
+            },
+            {
+                "nom": "hasTool_WorkspaceName",
+                "text-FR": "Nom_EspaceDeTravail",
+                "text-EN": "Name_Workspace",
+                "text-DE": "Name_Arbeitsplatz",
+                "text" :"",
+                "style": "green-Italic"
+            }
+        ]
+    },
+    {
+        "type": "resource-read",
+        "text-EN": "Resource-Read",
+        "text-FR": "ressource-lire",
+        "text-DE": "ressource-lesen",
+        "style": "green-bold",
+        "text" :"",
+        "attribut": [
+            {
+                "nom": "hasDate",
+                "text-FR": "Date",
+                "text-EN": "Date",
+                "text-DE": "Datum",
+                "text" :"",
+                "style": "DeepPink"
+            },
+            {
+                "nom": "hasTool_ResourceName",
+                "text-FR": "Nom_Ressource",
+                "text-DE": "Name_Ressource",
+                "text-EN": "Name_Resource",
+                "text" :"",
+                "style": "Maroon"
+            },
+            {
+                "nom": "hasTool_ResourcePath",
+                "text-EN": "Path_Resource",
+                "text-DE": "Pfad_Ressource",
+                "text-FR": "Chemin_Ressource",
+                "text" :"",
+                "style": "Blue-bold"
+            },
+            {
+                "nom": "hasTool_ResourceType",
+                "text-FR": "Type_Ressource",
+                "text-EN": "Type_Resource",
+                "text-DE": "Typ_Ressource",
+                "text" :"",
+                "style": "Purple"
+            },
+            {
+                "nom": "hasTool_WorkspaceName",
+                "text-FR": "Nom_EspaceDeTravail",
+                "text-EN": "Name_Workspace",
+                "text-DE": "Name_Arbeitsplatz",
+                "text" :"",
+                "style": "green-Italic"
+            }
+        ]
+    },
+    {
+        "type": "resource-icap_lesson-chapter_read",
+        "text-EN": "resource-icap_lesson-chapter_read",
+        "text-DE": "ressource-icap_Lektion-Kapitel_lesen",
+        "text-FR": "ressource-icap_leçon-chapitre_lire",
+        "text" :"",
+        "style": "green-bold",
+        "attribut": [
+            {
+                "nom": "hasDate",
+                "text-FR": "Date",
+                "text-EN": "Date",
+                "text-DE": "Datum",
+                "text" :"",
+                "style": "DeepPink"
+            },
+            {
+                "nom": "hasTool_ResourceName",
+                "text-FR": "Nom_Ressource",
+                "text-DE": "Name_Ressource",
+                "text-EN": "Name_Resource",
+                "text" :"",
+                "style": "green"
+            },
+            {
+                "nom": "hasTool_ResourcePath",
+                "text-EN": "Path_Resource",
+                "text-DE": "Pfad_Ressource",
+                "text-FR": "Chemin_Ressource",
+                "text" :"",
+                "style": "Blue-bold"
+            },
+            {
+                "nom": "hasTool_ResourceType",
+                "text-FR": "Type_Ressource",
+                "text-EN": "Type_Resource",
+                "text-DE": "Typ_Ressource",
+                "text" :"",
+                "style": "green-Italic"
+            },
+            {
+                "nom": "hasTool_WorkspaceName",
+                "text-FR": "Nom_EspaceDeTravail",
+                "text-EN": "Name_Workspace",
+                "text-DE": "Name_Arbeitsplatz",
+                "text" :"",
+                "style": "green"
+            }
+        ]
+    },
+    {
+        "type": "resource-ujm_exercise-exercise_evaluated",
+        "text-EN": "resource-ujm_exercise-exercise_evaluated",
+        "text-FR": "ressource-ujm_exercice-exercice_évalué",
+        "text-DE": "Ressource-ujm_Übung-Übung_ausgewertet",
+        "style": "green-bold",
+        "text" :"",
+        "attribut": [
+            {
+                "nom": "hasDate",
+                "text-FR": "Date",
+                "text-EN": "Date",
+                "text-DE": "Datum",
+                "text" :"",
+                "style": "DeepPink"
+            },
+            {
+                "nom": "hasTool_ResourceName",
+                "text-FR": "Nom_Ressource",
+                "text-DE": "Name_Ressource",
+                "text-EN": "Name_Resource",
+                "text" :"",
+                "style": "Maroon"
+            },
+            {
+                "nom": "hasTool_ResourcePath",
+                "text-EN": "Path_Resource",
+                "text-DE": "Pfad_Ressource",
+                "text-FR": "Chemin_Ressource",
+                "text" :"",
+                "style": "Blue-bold"
+            },
+            {
+                "nom": "hasTool_ResourceType",
+                "text-FR": "Type_Ressource",
+                "text-EN": "Type_Resource",
+                "text-DE": "Typ_Ressource",
+                "text" :"",
+                "style": "Purple"
+            },
+            {
+                "nom": "hasTool_WorkspaceName",
+                "text-FR": "Nom_EspaceDeTravail",
+                "text-EN": "Name_Workspace",
+                "text-DE": "Name_Arbeitsplatz",
+                "text" :"",
+                "style": "green-Italic"
+            }
+        ]
+    },
+    {
+        "type": "resource-claroline_forum-subscribe",
+        "text-EN": "resource-claroline_forum-subscribe",
+        "text-FR": "ressource-claroline_forum-abboner'",
+        "text-DE": "ressource-claroline_forum-abonnieren",
+        "text" :"",
+        "style": "green-bold",
+        "attribut": [
+            {
+                "nom": "hasDate",
+                "text-FR": "Date",
+                "text-EN": "Date",
+                "text-DE": "Datum",
+                "text" :"",
+                "style": "DeepPink"
+            },
+            {
+                "nom": "hasTool_ResourceName",
+                "text-FR": "Nom_Ressource",
+                "text-DE": "Name_Ressource",
+                "text-EN": "Name_Resource",
+                "text" :"",
+                "style": "Maroon"
+            },
+            {
+                "nom": "hasTool_ResourcePath",
+                "text-EN": "Path_Resource",
+                "text-DE": "Pfad_Ressource",
+                "text-FR": "Chemin_Ressource",
+                "text" :"",
+                "style": "Blue-bold"
+            },
+            {
+                "nom": "hasTool_ResourceType",
+                "text-FR": "Type_Ressource",
+                "text-EN": "Type_Resource",
+                "text-DE": "Typ_Ressource",
+                "text" :"",
+                "style": "Purple"
+            },
+            {
+                "nom": "hasTool_WorkspaceName",
+                "text-FR": "Nom_EspaceDeTravail",
+                "text-EN": "Name_Workspace",
+                "text-DE": "Name_Arbeitsplatz",
+                "text" :"",
+                "style": "green-Italic"
+            }
+        ]
+    },
+    {
+        "type": "click-blog",
+        "text-EN": "click-blog",
+        "text-FR": "cliquer-blog",
+        "text-DE": "Klicken-Blog",
+        "style": "red-bold",
+        "text" :"",
+        "attribut": [
+            {
+                "nom": "hasDate",
+                "text-FR": "Date",
+                "text-EN": "Date",
+                "text-DE": "Datum",
+                "text" :"",
+                "style": "black-bold"
+            },
+            {
+                "nom": "hasDocument_URL",
+                "text-FR": "URL",
+                "text-DE": "URL",
+                "text-EN": "URL",
+                "text" :"",
+                "style": "lien"
+            },
+            {
+                "nom": "hastarget_targetText",
+                "text-FR": "Text",
+                "text-EN": "Text",
+                "text-DE": "Texte",
+                "text" :"",
+                "style": "fluorescent-orange"
+            }
+        ]
+    },
+    {
+        "type": "Ouverture_Page",
+        "text-EN": "Opening_Page",
+        "text-DE": "Öffnungs_Page",
+        "text-FR": "Ouverture_Page",
+        "style": "Orange",
+        "text" :"",
+        "attribut": [
+            {
+                "nom": "hasDate",
+                "text-FR": "Date",
+                "text-EN": "Date",
+                "text-DE": "Datum",
+                "text" :"",
+                "style": "DeepPink"
+            },
+            {
+                "nom": "hasDocument_URL",
+                "text-FR": "URL",
+                "text-DE": "URL",
+                "text-EN": "URL",
+                "text" :"",
+                "style": "lien"
+            }
+        ]
+    },
+    {
+        "type": "Click-Onglet",
+        "text-FR": "Cliquer-Onglet",
+        "text-DE": "Klicken-Tab",
+        "text-EN": "Click-Tab",
+        "style": "Red-bold",
+        "text" :"",
+        "attribut": [
+            {
+                "nom": "hasDate",
+                "text-FR": "Date",
+                "text-EN": "Date",
+                "text-DE": "Datum",
+                "text" :"",
+                "style": "DeepPink"
+            },
+            {
+                "nom": "hasDocument_Title",
+                "text-EN": "Document_Title",
+                "text-DE": "Dokument_Titel",
+                "text-FR": "Document_Titre",
+                "text" :"",
+                "style": "Blue-bold"
+            },
+            {
+                "nom": "hasDocument_URL",
+                "text-FR": "URL",
+                "text-DE": "URL",
+                "text-EN": "URL",
+                "text" :"",
+                "style": "lien"
+            },
+            {
+                "nom": "hastarget_targetText",
+                "text-FR": "Text",
+                "text-EN": "Text",
+                "text-DE": "Texte",
+                "text" :"",
+                "style": "fluorescent-orange"
+            }
+        ]
+    },
+    {
+        "type": "Click-Lien-Presentation",
+        "text-FR": "Cliquer-Lien-Presentation",
+        "text-EN": "Click-Link-Presentation",
+        "text-DE": "Klicken-Link-Presentation",
+        "text" :"",
+        "style": "black",
+        "attribut": [
+            {
+                "nom": "hasDate",
+                "text-FR": "Date",
+                "text-EN": "Date",
+                "text-DE": "Datum",
+                "text" :"",
+                "style": "DeepPink"
+            },
+            {
+                "nom": "hasDocument_Title",
+                "text-EN": "Document_Title",
+                "text-DE": "Dokument_Titel",
+                "text-FR": "Document_Titre",
+                "text" :"",
+                "style": "Blue-bold"
+            },
+            {
+                "nom": "hasDocument_URL",
+                "text-FR": "URL",
+                "text-DE": "URL",
+                "text-EN": "URL",
+                "text" :"",
+                "style": "lien"
+            }
+        ]
+    },
+    {
+        "type": "Click-lien-google",
+        "text-FR": "Cliquer-Lien-Google",
+        "text-EN": "Click-Link-Google",
+        "text-DE": "Klicken-Link-Google",
+        "style": "Yellow",
+        "text" :"",
+        "attribut": [
+            {
+                "nom": "hasDate",
+                "text-FR": "Date",
+                "text-EN": "Date",
+                "text-DE": "Datum",
+                "text" :"",
+                "style": "DeepPink"
+            },
+            {
+                "nom": "hasDocument_Title",
+                "text-EN": "Document_Title",
+                "text-DE": "Dokument_Titel",
+                "text-FR": "Document_Titre",
+                "text" :"",
+                "style": "Blue-bold"
+            },
+            {
+                "nom": "hasDocument_URL",
+                "text-FR": "URL",
+                "text-DE": "URL",
+                "text-EN": "URL",
+                "text" :"",
+                "style": "lien"
+            },
+            {
+                "nom": "hasTarget_targetText",
+                "text-FR": "Text",
+                "text-EN": "Text",
+                "text-DE": "Texte",
+                "text" :"",
+                "style": "fluorescent-orange"
+            }
+        ]
+    },
+    {
+        "type": "Click-Lien-Tutoriel",
+        "text-EN": "Click-Link-Tutorial",
+        "text-FR": "Cliquer-Lien-Tutoriel",
+        "text-DE": "Klicken-Link-Lernprogramm",
+        "style": "Red-bold",
+        "text" :"",
+        "attribut": [
+            {
+                "nom": "hasDate",
+                "text-FR": "Date",
+                "text-EN": "Date",
+                "text-DE": "Datum",
+                "text" :"",
+                "style": "DeepPink"
+            },
+            {
+                "nom": "hasDocument_Title",
+                "text-EN": "Document_Title",
+                "text-DE": "Dokument_Titel",
+                "text-FR": "Document_Titre",
+                "text" :"",
+                "style": "Blue-bold"
+            },
+            {
+                "nom": "hasDocument_URL",
+                "text-FR": "URL",
+                "text-DE": "URL",
+                "text-EN": "URL",
+                "text" :"",
+                "style": "lien"
+            },
+            {
+                "nom": "hastarget_targetText",
+                "text-FR": "Text",
+                "text-EN": "Text",
+                "text-DE": "Texte",
+                "text" :"",
+                "style": "fluorescent-orange"
+            }
+        ]
+    },
+    {
+        "type": "Survol-Session",
+        "text-FR": "Survol-Session",
+        "text-EN": "Hover-Session",
+        "text-DE": "Hover-Session",
+        "style": "Red-bold",
+        "text" :"",
+        "attribut": [
+            {
+                "nom": "hasDate",
+                "text-FR": "Date",
+                "text-EN": "Date",
+                "text-DE": "Datum",
+                "text" :"",
+                "style": "DeepPink"
+            },
+            {
+                "nom": "hasDocument_Title",
+                "text-EN": "Document_Title",
+                "text-DE": "Dokument_Titel",
+                "text-FR": "Document_Titre",
+                "text" :"",
+                "style": "Blue-bold"
+            },
+            {
+                "nom": "hasDocument_URL",
+                "text-FR": "URL",
+                "text-DE": "URL",
+                "text-EN": "URL",
+                "text" :"",
+                "style": "lien"
+            },
+            {
+                "nom": "hastarget_targetText",
+                "text-FR": "Text",
+                "text-EN": "Text",
+                "text-DE": "Texte",
+                "text" :"",
+                "style": "fluorescent-orange"
+            }
+        ]
+    },
+    {
+        "type": "Click-Session",
+        "text-EN": "Click-Session",
+        "text-DE": "Klicken-Session",
+        "text-FR": "Cliquer-Session",
+        "style": "Red-bold",
+        "text" :"",
+        "attribut": [
+            {
+                "nom": "hasDate",
+                "text-FR": "Date",
+                "text-EN": "Date",
+                "text-DE": "Datum",
+                "text" :"",
+                "style": "DeepPink"
+            },
+            {
+                "nom": "hasDocument_Title",
+                "text-EN": "Document_Title",
+                "text-DE": "Dokument_Titel",
+                "text-FR": "Document_Titre",
+                "text" :"",
+                "style": "Blue-bold"
+            },
+            {
+                "nom": "hasDocument_URL",
+                "text-FR": "URL",
+                "text-DE": "URL",
+                "text-EN": "URL",
+                "text" :"",
+                "style": "lien"
+            },
+            {
+                "nom": "hastarget_targetText",
+                "text-FR": "Text",
+                "text-EN": "Text",
+                "text-DE": "Texte",
+                "text" :"",
+                "style": "fluorescent-orange"
+            }
+        ]
+    },
+    {
+        "type": "Click-Next",
+        "text-FR": "Cliquer-Suivant",
+        "text-DE": "Klicken-Nächste",
+        "text-EN": "Click-Next",
+        "style": "red-bold",
+        "text" :"",
+        "attribut": [
+            {
+                "nom": "hasDocument_Title",
+                "text-EN": "Document_Title",
+                "text-DE": "Dokument_Titel",
+                "text-FR": "Document_Titre",
+                "text" :"",
+                "style": "Blue-bold"
+            },
+            {
+                "nom": "hasDocument_URL",
+                "text-FR": "",
+                "text-EN": "",
+                "text-DE": "",
+                "text" :"",
+                "style": "lien"
+            },
+            {
+                "nom": "hasdate",
+                "text-FR": "",
+                "text-EN": "",
+                "text-DE": "",
+                "text" :"",
+                "style": "black"
+            }
+        ]
+    },
+    {
+        "type": "Click-Zoom-In",
+        "text-FR": "Cliquer-Zoomer",
+        "text-DE": "Klicken-Vergrößern",
+        "text-EN": "Click-Zoom-In",
+        "style": "red-bold",
+        "text" :"",
+        "attribut": [
+            {
+                "nom": "hasDocument_Title",
+                "text-EN": "Document_Title",
+                "text-DE": "Dokument_Titel",
+                "text-FR": "Document_Titre",
+                "text" :"",
+                "style": "Blue-bold"
+            },
+            {
+                "nom": "hasDocument_URL",
+                "text-FR": "",
+                "text-EN": "",
+                "text-DE": "",
+                "text" :"",
+                "style": "lien"
+            },
+            {
+                "nom": "hasdate",
+                "text-FR": "",
+                "text-EN": "",
+                "text-DE": "",
+                "text" :"",
+                "style": "black"
+            }
+        ]
+    },
+    {
+        "type": "Click-Lien-session2",
+        "text-DE": "Klicken-Link-Session2",
+        "text-EN": "Click-Link-Session2",
+        "text-FR": "Cliqeur-Lien-Session2",
+        "style": "Red-bold",
+        "text" :"",
+        "attribut": [
+            {
+                "nom": "hasDate",
+                "text-FR": "Date",
+                "text-EN": "Date",
+                "text-DE": "Datum",
+                "text" :"",
+                "style": "DeepPink"
+            },
+            {
+                "nom": "hasDocument_Title",
+                "text-EN": "Document_Title",
+                "text-DE": "Dokument_Titel",
+                "text-FR": "Document_Titre",
+                "text" :"",
+                "style": "Blue-bold"
+            },
+            {
+                "nom": "hasDocument_URL",
+                "text-FR": "URL",
+                "text-DE": "URL",
+                "text-EN": "URL",
+                "text" :"",
+                "style": "lien"
+            },
+            {
+                "nom": "hastarget_targetText",
+                "text-FR": "Text",
+                "text-EN": "Text",
+                "text-DE": "Texte",
+                "text" :"",
+                "style": "fluorescent-orange"
+            }
+        ]
+    },
+    {
+        "type": "Click-Next",
+        "text-FR": "Cliquer-Suivant",
+        "text-DE": "Klicken-Nächste",
+        "text-EN": "Click-Next",
+        "style": "Red-bold",
+        "text" :"",
+        "attribut": [
+            {
+                "nom": "hasDate",
+                "text-FR": "Date",
+                "text-EN": "Date",
+                "text-DE": "Datum",
+                "text" :"",
+                "style": "DeepPink"
+            },
+            {
+                "nom": "hasDocument_Title",
+                "text-EN": "Document_Title",
+                "text-DE": "Dokument_Titel",
+                "text-FR": "Document_Titre",
+                "text" :"",
+                "style": "Blue-bold"
+            },
+            {
+                "nom": "hasDocument_URL",
+                "text-FR": "URL",
+                "text-DE": "URL",
+                "text-EN": "URL",
+                "text" :"",
+                "style": "lien"
+            }
+        ]
+    },
+    {
+        "type": "Click-Button",
+        "text-DE": "Klicken-Taste",
+        "text-FR": "Cliquer-Bouton",
+        "text-EN": "Click-Button",
+        "style": "Red-bold",
+        "text" :"",
+        "attribut": [
+            {
+                "nom": "hasDate",
+                "text-FR": "Date",
+                "text-EN": "Date",
+                "text-DE": "Datum",
+                "text" :"",
+                "style": "DeepPink"
+            },
+            {
+                "nom": "hastarget_Value",
+                "text": "Value",
+                
+                "style": "fluorescent-orange"
+            },
+            {
+                "nom": "hasDocument_Title",
+                "text-EN": "Document_Title",
+                "text-DE": "Dokument_Titel",
+                "text-FR": "Document_Titre",
+                "text" :"",
+                "style": "Blue-bold"
+            },
+            {
+                "nom": "hasDocument_URL",
+                "text-FR": "URL",
+                "text-DE": "URL",
+                "text-EN": "URL",
+                "text" :"",
+                "style": "lien"
+            },
+            {
+                "nom": "hastarget_targetText",
+                "text-FR": "Text",
+                "text-EN": "Text",
+                "text-DE": "Texte",
+                "text" :"",
+                "style": "fluorescent-orange"
+            }
+        ]
+    },
+    {
+        "type": "dislike-video",
+        "text-FR": "NePasAimer-video",
+        "text-EN": "dislike-video",
+        "text-DE": "dislike-video",
+        "text" :"",
+        "style": "Red-bold",
+        "attribut": [
+            {
+                "nom": "hasDate",
+                "text-FR": "Date",
+                "text-EN": "Date",
+                "text-DE": "Datum",
+                "text" :"",
+                "style": "DeepPink"
+            },
+            {
+                "nom": "hasDocument_Title",
+                "text-EN": "Document_Title",
+                "text-DE": "Dokument_Titel",
+                "text-FR": "Document_Titre",
+                "text" :"",
+                "style": "Blue-bold"
+            },
+            {
+                "nom": "hasDocument_URL",
+                "text-FR": "URL",
+                "text-DE": "URL",
+                "text-EN": "URL",
+                "text" :"",
+                "style": "lien"
+            }
+        ]
+    },
+    {
+        "type": "Aime-Video",
+        "text-DE": "Video-Mögen",
+        "text-FR": "Aime-Video",
+        "text-EN": "Like-Video",
+        "style": "Red-bold",
+        "text" :"",
+        "attribut": [
+            {
+                "nom": "hasDate",
+                "text-FR": "Date",
+                "text-EN": "Date",
+                "text-DE": "Datum",
+                "text" :"",
+                "style": "DeepPink"
+            },
+            {
+                "nom": "hasDocument_Title",
+                "text-EN": "Document_Title",
+                "text-DE": "Dokument_Titel",
+                "text-FR": "Document_Titre",
+                "text" :"",
+                "style": "Blue-bold"
+            },
+            {
+                "nom": "hasDocument_URL",
+                "text-FR": "URL",
+                "text-DE": "URL",
+                "text-EN": "URL",
+                "text" :"",
+                "style": "lien"
+            }
+        ]
+    },
+    {
+        "type": "Annuler-Abonnement",
+        "text-FR": "Annuler-Abonnement",
+        "text-EN": "Unsubscribe",
+        "text-DE": "Abmelden",
+        "style": "Red-bold",
+        "text" :"",
+        "attribut": [
+            {
+                "nom": "hasDate",
+                "text-FR": "Date",
+                "text-EN": "Date",
+                "text-DE": "Datum",
+                "text" :"",
+                "style": "DeepPink"
+            },
+            {
+                "nom": "hasDocument_Title",
+                "text-EN": "Document_Title",
+                "text-DE": "Dokument_Titel",
+                "text-FR": "Document_Titre",
+                "text" :"",
+                "style": "Blue-bold"
+            },
+            {
+                "nom": "hasDocument_URL",
+                "text-FR": "URL",
+                "text-DE": "URL",
+                "text-EN": "URL",
+                "text" :"",
+                "style": "lien"
+            }
+        ]
+    },
+    {
+        "type": "Abonner-Video",
+        "text-FR": "Abonner-Video",
+        "text-EN": "Subscribe-Video",
+        "text-DE": "Abonnieren-Video",
+        "style": "Red-bold",
+        "text" :"",
+        "attribut": [
+            {
+                "nom": "hasDate",
+                "text-FR": "Date",
+                "text-EN": "Date",
+                "text-DE": "Datum",
+                "text" :"",
+                "style": "DeepPink"
+            },
+            {
+                "nom": "hasDocument_Title",
+                "text-EN": "Document_Title",
+                "text-DE": "Dokument_Titel",
+                "text-FR": "Document_Titre",
+                "text" :"",
+                "style": "Blue-bold"
+            },
+            {
+                "nom": "hasDocument_URL",
+                "text-FR": "URL",
+                "text-DE": "URL",
+                "text-EN": "URL",
+                "text" :"",
+                "style": "lien"
+            }
+        ]
+    },
+    {
+        "type": "resource-claroline_forum-create_subject",
+        "text-FR": "ressource-claroline_forum-créer_l'objet",
+        "text-DE": "ressource-claroline_forum-thema_schaffen",
+        "text-EN": "resource-claroline_forum-create_subject",
+        "style": "green-bold",
+        "text" :"",
+        "attribut": [
+            {
+                "nom": "hasDate",
+                "text-FR": "Date",
+                "text-EN": "Date",
+                "text-DE": "Datum",
+                "text" :"",
+                "style": "black-bold"
+            },
+            {
+                "nom": "hasTool_ResourceType",
+                "text-FR": "Type_Ressource",
+                "text-EN": "Type_Resource",
+                "text-DE": "Typ_Ressource",
+                "text" :"",
+                "style": "green-Italic"
+            },
+            {
+                "nom": "hasTool_WorkspaceName",
+                "text-FR": "Nom_EspaceDeTravail",
+                "text-EN": "Name_Workspace",
+                "text-DE": "Name_Arbeitsplatz",
+                "text" :"",
+                "style": "green"
+            }
+        ]
+    },
+    {
+        "type": "resource-claroline_forum-create_message",
+        "text-EN": "resource-claroline_forum-create_message",
+        "text-FR": "ressource-claroline_forum-créer_message",
+        "text-DE": "ressource-claroline_forum-message_schaffen",
+        "style": "green-bold",
+        "text" :"",
+        "attribut": [
+            {
+                "nom": "hasDate",
+                "text-FR": "Date",
+                "text-EN": "Date",
+                "text-DE": "Datum",
+                "text" :"",
+                "style": "black-bold"
+            },
+            {
+                "nom": "hasTool_ResourceType",
+                "text-FR": "Type_Ressource",
+                "text-EN": "Type_Resource",
+                "text-DE": "Typ_Ressource",
+                "text" :"",
+                "style": "green-Italic"
+            },
+            {
+                "nom": "hasTool_WorkspaceName",
+                "text-FR": "Nom_EspaceDeTravail",
+                "text-EN": "Name_Workspace",
+                "text-DE": "Name_Arbeitsplatz",
+                "text" :"",
+                "style": "green"
+            }
+        ]
+    },
+    {
+        "type": "resource-claroline_forum-delete_message",
+        "text-EN": "resource-claroline_forum-delete_message",
+        "text-FR": "ressource-claroline_forum-supprimer_message",
+        "text-DE": "Ressource-claroline_forum-message_löschen",
+        "style": "black",
+        "text" :"",
+        "attribut": [
+            {
+                "nom": "hasDate",
+                "text-FR": "Date",
+                "text-EN": "Date",
+                "text-DE": "Datum",
+                "text" :"",
+                "style": "DeepPink"
+            },
+            {
+                "nom": "hasTool_ResourceName",
+                "text-FR": "Nom_Ressource",
+                "text-DE": "Name_Ressource",
+                "text-EN": "Name_Resource",
+                "text" :"",
+                "style": "green"
+            },
+            {
+                "nom": "hasTool_ResourceType",
+                "text-FR": "Type_Ressource",
+                "text-EN": "Type_Resource",
+                "text-DE": "Typ_Ressource",
+                "text" :"",
+                "style": "green-Italic"
+            },
+            {
+                "nom": "hasTool_WorkspaceName",
+                "text-FR": "Nom_EspaceDeTravail",
+                "text-EN": "Name_Workspace",
+                "text-DE": "Name_Arbeitsplatz",
+                "text" :"",
+                "style": "green"
+            }
+        ]
+    },
+    {
+        "type": "Click-Menu",
+        "text-EN": "Click-Menu",
+        "text-DE": "Klicken-Menu",
+        "text-FR": "Cliquer-Menu",
+        "style": "Red-bold",
+        "text" :"",
+        "attribut": [
+            {
+                "nom": "hasDate",
+                "text-FR": "Date",
+                "text-EN": "Date",
+                "text-DE": "Datum",
+                "text" :"",
+                "style": "DeepPink"
+            },
+            {
+                "nom": "hasDocument_Title",
+                "text-EN": "Document_Title",
+                "text-DE": "Dokument_Titel",
+                "text-FR": "Document_Titre",
+                "text" :"",
+                "style": "Blue-bold"
+            },
+            {
+                "nom": "hasDocument_URL",
+                "text-FR": "URL",
+                "text-DE": "URL",
+                "text-EN": "URL",
+                "text" :"",
+                "style": "lien"
+            },
+            {
+                "nom": "hastarget_targetText",
+                "text-FR": "Text",
+                "text-EN": "Text",
+                "text-DE": "Texte",
+                "text" :"",
+                "style": "fluorescent-orange"
+            }
+        ]
+    },
+    {
+        "type": "Click-Lien-Categorie",
+        "text-EN": "Click-Link-Category",
+        "text-FR": "Cliquer-Lien-Categorie",
+        "text-DE": "Klicken-Link-Kategorie",
+        "text" :"",
+        "style": "Red-bold",
+        "attribut": [
+            {
+                "nom": "hasDate",
+                "text-FR": "Date",
+                "text-EN": "Date",
+                "text-DE": "Datum",
+                "text" :"",
+                "style": "DeepPink"
+            },
+            {
+                "nom": "hasDocument_Title",
+                "text-EN": "Document_Title",
+                "text-DE": "Dokument_Titel",
+                "text-FR": "Document_Titre",
+                "text" :"",
+                "style": "Blue-bold"
+            },
+            {
+                "nom": "hasDocument_URL",
+                "text-FR": "URL",
+                "text-DE": "URL",
+                "text-EN": "URL",
+                "text" :"",
+                "style": "lien"
+            },
+            {
+                "nom": "hastarget_targetText",
+                "text-FR": "Text",
+                "text-EN": "Text",
+                "text-DE": "Texte",
+                "text" :"",
+                "style": "fluorescent-orange"
+            }
+        ]
+    },
+    {
+        "type": "Click-Lien-session1",
+        "text-FR": "Cliquer-Lien-Session1",
+        "text-EN": "Click-Link-Session1",
+        "text-DE": "Klicken-Link-Session1",
+        "style": "Red-bold",
+        "text" :"",
+        "attribut": [
+            {
+                "nom": "hasDate",
+                "text-FR": "Date",
+                "text-EN": "Date",
+                "text-DE": "Datum",
+                "text" :"",
+                "style": "DeepPink"
+            },
+            {
+                "nom": "hasDocument_Title",
+                "text-EN": "Document_Title",
+                "text-DE": "Dokument_Titel",
+                "text-FR": "Document_Titre",
+                "text" :"",
+                "style": "Blue-bold"
+            },
+            {
+                "nom": "hasDocument_URL",
+                "text-FR": "URL",
+                "text-DE": "URL",
+                "text-EN": "URL",
+                "text" :"",
+                "style": "lien"
+            },
+            {
+                "nom": "hastarget_targetText",
+                "text-FR": "Text",
+                "text-EN": "Text",
+                "text-DE": "Texte",
+                "text" :"",
+                "style": "fluorescent-orange"
+            }
+        ]
+    },
+    {
+        "type": "Cocher-Commentaires-autorises",
+        "text-EN": "Check-Comments-Authorized",
+        "text-DE": "Check-Kommentare-Autoriziert",
+        "text-FR": "Cocher-Commentaires-autorises",
+        "text" :"",
+        "style": "red-bold",
+        "attribut": [
+            {
+                "nom": "hasDate",
+                "text-FR": "Date",
+                "text-EN": "Date",
+                "text-DE": "Datum",
+                "text" :"",
+                "style": "black-bold"
+            },
+            {
+                "nom": "hasDocument_URL",
+                "text-FR": "URL",
+                "text-DE": "URL",
+                "text-EN": "URL",
+                "text" :"",
+                "style": "lien"
+            }
+        ]
+    },
+    {
+        "type": "Cocher-Publication-automatique-des-commentaires",
+        "text-FR": "Cocher-Publication-automatique-des-commentaires",
+        "text-EN": "Check-Automatic-Comment-Publication",
+        "text-DE": "Check-Automatisch-Kommentare-Publizierung",
+        "style": "red-bold",
+        "text" :"",
+        "attribut": [
+            {
+                "nom": "hasDate",
+                "text-FR": "Date",
+                "text-EN": "Date",
+                "text-DE": "Datum",
+                "text" :"",
+                "style": "black-bold"
+            },
+            {
+                "nom": "hasDocument_URL",
+                "text-FR": "URL",
+                "text-DE": "URL",
+                "text-EN": "URL",
+                "text" :"",
+                "style": "lien"
+            }
+        ]
+    },
+    {
+        "type": "Click-Configurer-options",
+        "text-DE": "Klicken-Konfigurieren-Options",
+        "text-EN": "Click-Configure-Options",
+        "text-FR": "Cliquer-Configurer-Options",
+        "text" :"",
+        "style": "red-bold",
+        "attribut": [
+            {
+                "nom": "hasDate",
+                "text-FR": "Date",
+                "text-EN": "Date",
+                "text-DE": "Datum",
+                "text" :"",
+                "style": "black-bold"
+            },
+            {
+                "nom": "hasDocument_URL",
+                "text-FR": "URL",
+                "text-DE": "URL",
+                "text-EN": "URL",
+                "text" :"",
+                "style": "lien"
+            }
+        ]
+    },
+    {
+        "type": "resource-icap_blog-configure",
+        "text-FR": "ressource-icap_blog-configurer",
+        "text-EN": "resource-icap_blog-configure",
+        "text-DE": "ressource-icap_blog-konfigurieren",
+        "style": "green-bold",
+        "text" :"",
+        "attribut": [
+            {
+                "nom": "hasDate",
+                "text-FR": "Date",
+                "text-EN": "Date",
+                "text-DE": "Datum",
+                "text" :"",
+                "style": "black-bold"
+            },
+            {
+                "nom": "hasTool_ResourceName",
+                "text-FR": "Nom_Ressource",
+                "text-DE": "Name_Ressource",
+                "text-EN": "Name_Resource",
+                "text" :"",
+                "style": "green-bold"
+            },
+            {
+                "nom": "hasTool_ResourcePath",
+                "text-EN": "Path_Resource",
+                "text-DE": "Pfad_Ressource",
+                "text-FR": "Chemin_Ressource",
+                "text" :"",
+                "style": "green-Italic"
+            },
+            {
+                "nom": "hasTool_ResourceType",
+                "text-FR": "Type_Ressource",
+                "text-EN": "Type_Resource",
+                "text-DE": "Typ_Ressource",
+                "text" :"",
+                "style": "green-Italic"
+            },
+            {
+                "nom": "hasTool_WorkspaceName",
+                "text-FR": "Nom_EspaceDeTravail",
+                "text-EN": "Name_Workspace",
+                "text-DE": "Name_Arbeitsplatz",
+                "text" :"",
+                "style": "green"
+            }
+        ]
+    },
+    {
+        "type": "resource-icap_blog-post_create",
+        "text-FR": "ressource-icap_blog-post_créer",
+        "text-EN": "resource-icap_blog-post_create",
+        "text-DE": "ressource-icap_blog-post_schaffen",
+        "text" :"",
+        "style": "green-bold",
+        "attribut": [
+            {
+                "nom": "hasDate",
+                "text-FR": "Date",
+                "text-EN": "Date",
+                "text-DE": "Datum",
+                "text" :"",
+                "style": "black-bold"
+            },
+            {
+                "nom": "hasTool_ResourceName",
+                "text-FR": "Nom_Ressource",
+                "text-DE": "Name_Ressource",
+                "text-EN": "Name_Resource",
+                "text" :"",
+                "style": "green-bold"
+            },
+            {
+                "nom": "hasTool_ResourcePath",
+                "text-EN": "Path_Resource",
+                "text-DE": "Pfad_Ressource",
+                "text-FR": "Chemin_Ressource",
+                "text" :"",
+                "style": "green-Italic"
+            },
+            {
+                "nom": "hasTool_ResourceType",
+                "text-FR": "Type_Ressource",
+                "text-EN": "Type_Resource",
+                "text-DE": "Typ_Ressource",
+                "text" :"",
+                "style": "green-Italic"
+            },
+            {
+                "nom": "hasTool_WorkspaceName",
+                "text-FR": "Nom_EspaceDeTravail",
+                "text-EN": "Name_Workspace",
+                "text-DE": "Name_Arbeitsplatz",
+                "text" :"",
+                "style": "green"
+            }
+        ]
+    },
+    {
+        "type": "Recherche-Google",
+        "text-FR": "Recherche-Google",
+        "text-DE": "Suchen-Google",
+        "text-EN": "Search-Google",
+        "style": "red-bold",
+        "text" :"",
+        "attribut": [
+            {
+                "nom": "hasDate",
+                "text-FR": "Date",
+                "text-EN": "Date",
+                "text-DE": "Datum",
+                "text" :"",
+                "style": "black-bold"
+            },
+            {
+                "nom": "hasDocument_URL",
+                "text-FR": "URL",
+                "text-DE": "URL",
+                "text-EN": "URL",
+                "text" :"",
+                "style": "lien"
+            },
+            {
+                "nom": "hastarget_Value",
+                "text-FR": "Text",
+                "text-EN": "Text",
+                "text-DE": "Texte",
+                "text" :"",
+                "style": "fluorescent-orange"
+            }
+        ]
+    },
+    {
+        "type": "Event-Cocher-Decocher-Quiz",
+        "text-FR": "événement-Cocher-Decocher-Quiz",
+        "text-EN": "event-Check-Uncheck-Quiz",
+        "text-DE": "Event-Check-Uncheck-Quiz",
+        "style": "Red-bold",
+        "text" :"",
+        "attribut": [
+            {
+                "nom": "hasDate",
+                "text-FR": "Date",
+                "text-EN": "Date",
+                "text-DE": "Datum",
+                "text" :"",
+                "style": "DeepPink"
+            },
+            {
+                "nom": "hasDocument_Title",
+                "text-EN": "Document_Title",
+                "text-DE": "Dokument_Titel",
+                "text-FR": "Document_Titre",
+                "text" :"",
+                "style": "Blue-bold"
+            },
+            {
+                "nom": "hasDocument_URL",
+                "text-FR": "URL",
+                "text-DE": "URL",
+                "text-EN": "URL",
+                "text" :"",
+                "style": "lien"
+            }
+        ]
+    },
+    {
+        "type": "Click-Sur-Sujet",
+        "text-FR": "Cliquer-Sur-Sujet",
+        "text-EN": "Click-On-Topic",
+        "text-DE": "Klicken-An-Theme",
+        "style": "Red-bold",
+        "text" :"",
+        "attribut": [
+            {
+                "nom": "hasDate",
+                "text-FR": "Date",
+                "text-EN": "Date",
+                "text-DE": "Datum",
+                "text" :"",
+                "style": "DeepPink"
+            },
+            {
+                "nom": "hasDocument_Title",
+                "text-EN": "Document_Title",
+                "text-DE": "Dokument_Titel",
+                "text-FR": "Document_Titre",
+                "text" :"",
+                "style": "Blue-bold"
+            },
+            {
+                "nom": "hasDocument_URL",
+                "text-FR": "URL",
+                "text-DE": "URL",
+                "text-EN": "URL",
+                "text" :"",
+                "style": "lien"
+            },
+            {
+                "nom": "hastarget_targetText",
+                "text-FR": "Text",
+                "text-EN": "Text",
+                "text-DE": "Texte",
+                "text" :"",
+                "style": "fluorescent-orange"
+            }
+        ]
+    },
+    {
+        "type": "workspace-create",
+        "text-FR": "EspaceDeTravail-créer",
+        "text-EN": "workspace-create",
+        "text-DE": "Arbeitsplatz-schaffen",
+        "style": "green-bold",
+        "text" :"",
+        "attribut": [
+            {
+                "nom": "hasDate",
+                "text-FR": "Date",
+                "text-EN": "Date",
+                "text-DE": "Datum",
+                "text" :"",
+                "style": "DeepPink"
+            },
+            {
+                "nom": "hasTool_WorkspaceName",
+                "text-FR": "Nom_EspaceDeTravail",
+                "text-EN": "Name_Workspace",
+                "text-DE": "Name_Arbeitsplatz",
+                "text" :"",
+                "style": "green-Italic"
+            }
+        ]
+    },
+    {
+        "type": "Click-Menu-Left",
+        "text-FR": "Cliquer-Menu-Gauche",
+        "text-DE": "Klicken-Menu-Links",
+        "text-EN": "Click-Menu-Left",
+        "style": "Red-bold",
+        "text" :"",
+        "attribut": [
+            {
+                "nom": "hasDate",
+                "text-FR": "Date",
+                "text-EN": "Date",
+                "text-DE": "Datum",
+                "text" :"",
+                "style": "DeepPink"
+            },
+            {
+                "nom": "hasDocument_Title",
+                "text-EN": "Document_Title",
+                "text-DE": "Dokument_Titel",
+                "text-FR": "Document_Titre",
+                "text" :"",
+                "style": "Blue-bold"
+            },
+            {
+                "nom": "hasDocument_URL",
+                "text-FR": "URL",
+                "text-DE": "URL",
+                "text-EN": "URL",
+                "text" :"",
+                "style": "lien"
+            },
+            {
+                "nom": "hastarget_targetText",
+                "text-FR": "Text",
+                "text-EN": "Text",
+                "text-DE": "Texte",
+                "text" :"",
+                "style": "fluorescent-orange"
+            }
+        ]
+    },
+    {
+        "type": "Click-Lien-session-0",
+        "text-FR": "Cliquer-Lien-session-0",
+        "text-EN": "Click-Link-session-0",
+        "text-DE": "Klicken-Link-session-0",
+        "style": "Red-bold",
+        "text" :"",
+        "attribut": [
+            {
+                "nom": "hasDate",
+                "text-FR": "Date",
+                "text-EN": "Date",
+                "text-DE": "Datum",
+                "text" :"",
+                "style": "DeepPink"
+            },
+            {
+                "nom": "hasDocument_Title",
+                "text-EN": "Document_Title",
+                "text-DE": "Dokument_Titel",
+                "text-FR": "Document_Titre",
+                "text" :"",
+                "style": "Blue-bold"
+            },
+            {
+                "nom": "hasDocument_URL",
+                "text-FR": "URL",
+                "text-DE": "URL",
+                "text-EN": "URL",
+                "text" :"",
+                "style": "lien"
+            },
+            {
+                "nom": "hastarget_targetText",
+                "text-FR": "Text",
+                "text-EN": "Text",
+                "text-DE": "Texte",
+                "text" :"",
+                "style": "fluorescent-orange"
+            }
+        ]
+    },
+    {
+        "type": "Click-Lien-session-1",
+        "text-FR": "Cliquer-Lien-session-1",
+        "text-EN": "Click-Link-session-1",
+        "text-DE": "Klicken-Link-session-1",
+        "style": "Red-bold",
+        "text" :"",
+        "attribut": [
+            {
+                "nom": "hasDate",
+                "text-FR": "Date",
+                "text-EN": "Date",
+                "text-DE": "Datum",
+                "text" :"",
+                "style": "DeepPink"
+            },
+            {
+                "nom": "hasDocument_Title",
+                "text-EN": "Document_Title",
+                "text-DE": "Dokument_Titel",
+                "text-FR": "Document_Titre",
+                "text" :"",
+                "style": "Blue-bold"
+            },
+            {
+                "nom": "hasDocument_URL",
+                "text-FR": "URL",
+                "text-DE": "URL",
+                "text-EN": "URL",
+                "text" :"",
+                "style": "lien"
+            },
+            {
+                "nom": "hastarget_targetText",
+                "text-FR": "Text",
+                "text-EN": "Text",
+                "text-DE": "Texte",
+                "text" :"",
+                "style": "fluorescent-orange"
+            }
+        ]
+    },
+    {
+        "type": "Deconnection",
+        "text-EN": "Disconnection",
+        "text-FR": "Déconnexion",
+        "text-DE": "Unterberechung",
+        "style": "Red-bold",
+        "text" :"",
+        "attribut": [
+            {
+                "nom": "hasDate",
+                "text-FR": "Date",
+                "text-EN": "Date",
+                "text-DE": "Datum",
+                "text" :"",
+                "style": "DeepPink"
+            },
+            {
+                "nom": "hasDocument_Title",
+                "text-EN": "Document_Title",
+                "text-DE": "Dokument_Titel",
+                "text-FR": "Document_Titre",
+                "text" :"",
+                "style": "Blue-bold"
+            },
+            {
+                "nom": "hasDocument_URL",
+                "text-FR": "URL",
+                "text-DE": "URL",
+                "text-EN": "URL",
+                "text" :"",
+                "style": "lien"
+            },
+            {
+                "nom": "hastarget_targetText",
+                "text-FR": "Text",
+                "text-EN": "Text",
+                "text-DE": "Texte",
+                "text" :"",
+                "style": "fluorescent-orange"
+            }
+        ]
+    }
+]

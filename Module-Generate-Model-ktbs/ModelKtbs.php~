@@ -1,0 +1,12 @@
+<?php
+    require_once dirname( __FILE__ )."/GenerateModel.php" ;
+   
+   $GenerateModel = new GenerateModel($_POST['TraceURI'],$_POST['ModelName']);
+   $Model = new TraceModel($GenerateModel->BaseURI,$GenerateModel->ModelName);
+   
+     if (!$Model->exist())
+   
+        {$GenerateModel->PutModel();}
+     else 
+        {echo ($Model->getData());}
+?>

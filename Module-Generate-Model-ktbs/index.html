@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../CSS/bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" href="../CSS/bootstrap/css/bootstrap-theme.min.css">
+        <link rel="stylesheet" href="../CSS/Style.css">
+        <!--script type="text/javascript" src="JS/jquery.js"></script-->
+        <script type="text/javascript" src="../JS/js.php"></script>
+        <script type="text/javascript" src="ModelKtbs.js"></script>
+		
+    </head>
+
+<body>
+<div class="input-group"style="position: fixed;" >
+    <label for="URLTRACE" class="control-label input-group-addon" >URL TRACE</label>
+    <input Id="URLTRACE" type="text" class="form-control"  placeholder="http://localhost:8001/Base/Trace">
+    <label for="URLTRACE" class="control-label input-group-addon" >Model Name</label>
+    <input Id="ModelName" type="text" class="form-control"  placeholder="ModelName">
+    <label for="Model_Name" class="control-label input-group-addon"></label>
+	 <input type="button" class="btn btn-primary btn-sm" id ="generate" value="Generate Model" style="margin-left: 50px"></input>
+</div>
+<div id='waiting' class="input-group" >
+<p>Patientez </p>
+</div>
+<script>
+    var obsels;   
+    var ListTypeData;
+    var TypeArray = [];
+    
+    $("#generate").on ("click",function()
+    {
+        $('#waiting').show();
+        var Base_URI = parse_trace_uri($("#URLTRACE").val())['base_uri'];
+        var Trace_Name = parse_trace_uri($("#URLTRACE").val())['trace_name'];
+        
+		            $.ajax({
+                          type: 'POST',
+                          url: 'ModelKtbs.php',
+                          data: {TraceURI :$("#URLTRACE").val(), ModelName :$("#ModelName").val() },
+                          success: function(){
+                          $('#waiting').hide();
+                          alert ("Success ")}
+		                  });
+		            
+		      
+     });
+    
+    function parse_trace_uri(trace_uri){
+			var str = trace_uri;
+			lastChar = str.substr(str.length-1);
+			if(lastChar == "/"){
+				str = str.substr(0,str.length-1);
+			}
+			//console.log("***");
+			lastIndexOfSlash = str.lastIndexOf("/");
+			if(lastIndexOfSlash!=-1)
+			base_uri = str.substr(0,lastIndexOfSlash+1);
+			trace_name = str.substr(lastIndexOfSlash+1,str.length);
+			
+			ret = {
+					"base_uri": base_uri,
+					"trace_name": trace_name
+			}
+			return ret;
+		}
+
+  </script>
+  </body>
+  </html>

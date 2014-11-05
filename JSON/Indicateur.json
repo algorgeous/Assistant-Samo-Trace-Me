@@ -1,0 +1,26 @@
+{ "Name" : "Balance",
+ "Description" : "balance d'actions, entre typeA et typeB ",
+  "Transformation" : [ 
+  	{ 	"type" : "sparql", 
+  		"id" : "1", 	
+  		"Predecesseur" : "", 
+  			"Successeur" : "2", 
+  				"method" : "sparql", 
+  					"Parameter" : { 
+  						"ObselType" : [ 	
+  						{ 	"obselTypeId" : "#typeA" }, 	
+  						{ 	"obselTypeId" : "#typeB" } ] } } ],
+  	 "formule" : "X = (A - B) /(A + B)", 
+  	 "output" : {
+  	  		"name" : "X ", 
+  	  		"label" : "Le résultat du balance" 
+  	  		}, "input" : [
+  	  		 {
+  	  		  	"name" : "A",
+  	  		  	"text" : "Je cherche à   compter le nombre d'obsels de type typeA ." },
+  	  		  		{
+  	  		  		 "name" : "B",
+  	  		  	"text" : "Je cherche à   compter le nombre d'obsels de type typeB ." 
+  	  		  	} 
+  	  		  	]
+  	  		  	 }

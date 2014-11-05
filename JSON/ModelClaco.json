@@ -1,0 +1,741 @@
+ [
+            {
+                "type": "workspace-enter",
+                "text": "",
+                "style": "green-bold",
+                "attribut": [
+                    {
+                        "nom": "hasDate",
+                        "text": "Date",
+                        "style": "DeepPink"
+                    },
+                    {
+                        "nom": "hasTool_WorkspaceName",
+                        "text": "NomWorkspace",
+                        "style": "green"
+                    }
+                ]
+            },
+            {
+                "type": "Ouverture_Page",
+                "text": "",
+                "style": "Orange",
+                "attribut": [
+                    {
+                        "nom": "hasDate",
+                        "text": "Date",
+                        "style": "DeepPink"
+                    },
+                    {
+                        "nom": "hasDocument_Title",
+                        "text": "Document_Title",
+                        "style": "Blue-bold"
+                    },
+                    {
+                        "nom": "hasDocument_URL",
+                        "text": "URL",
+                        "style": "lien"
+                    }
+                ]
+            },
+            {
+                "type": "Click-Onglet",
+                "text": "",
+                "style": "Red-bold",
+                "attribut": [
+                    {
+                        "nom": "hasDate",
+                        "text": "Date",
+                        "style": "DeepPink"
+                    },
+                    {
+                        "nom": "hasDocument_Title",
+                        "text": "Document_Title",
+                        "style": "Blue-bold"
+                    },
+                    {
+                        "nom": "hasDocument_URL",
+                        "text": "URL",
+                        "style": "lien"
+                    },
+                    {
+                        "nom": "hasTarget_targetText",
+                        "text": "Text",
+                        "style": "fluorescent-orange"
+                    }
+                ]
+            },
+            {
+                "type": "Click-Lien-Presentation",
+                "text": "",
+                "style": "black",
+                "attribut": [
+                    {
+                        "nom": "hasDate",
+                        "text": "Date",
+                        "style": "DeepPink"
+                    },
+                    {
+                        "nom": "hasDocument_Title",
+                        "text": "Document_Title",
+                        "style": "Blue-bold"
+                    },
+                    {
+                        "nom": "hasDocument_URL",
+                        "text": "URL",
+                        "style": "lien"
+                    }
+                ]
+            },
+            {
+                "type": "Survol-Session",
+                "text": "",
+                "style": "Red-bold",
+                "attribut": [
+                    {
+                        "nom": "hasDate",
+                        "text": "Date",
+                        "style": "DeepPink"
+                    },
+                    {
+                        "nom": "hasDocument_Title",
+                        "text": "Document_Title",
+                        "style": "Blue-bold"
+                    },
+                    {
+                        "nom": "hasDocument_URL",
+                        "text": "URL",
+                        "style": "lien"
+                    },
+                    {
+                        "nom": "hasTarget_targetText",
+                        "text": "Text",
+                        "style": "fluorescent-orange"
+                    }
+                ]
+            },
+            {
+                "type": "Click-Session",
+                "text": "",
+                "style": "Red-bold",
+                "attribut": [
+                    {
+                        "nom": "hasDate",
+                        "text": "Date",
+                        "style": "DeepPink"
+                    },
+                    {
+                        "nom": "hasDocument_Title",
+                        "text": "Document_Title",
+                        "style": "Blue-bold"
+                    },
+                    {
+                        "nom": "hasDocument_URL",
+                        "text": "URL",
+                        "style": "lien"
+                    },
+                    {
+                        "nom": "hasTarget_targetText",
+                        "text": "Text",
+                        "style": "fluorescent-orange"
+                    }
+                ]
+            },
+            {
+                "type": "Click-lien-google",
+                "text": "",
+                "style": "Yellow",
+                "attribut": [
+                    {
+                        "nom": "hasDate",
+                        "text": "Date",
+                        "style": "DeepPink"
+                    },
+                    {
+                        "nom": "hasDocument_Title",
+                        "text": "Document_Title",
+                        "style": "Blue-bold"
+                    },
+                    {
+                        "nom": "hasDocument_URL",
+                        "text": "URL",
+                        "style": "lien"
+                    },
+                    {
+                        "nom": "hasTarget_targetText",
+                        "text": "Text",
+                        "style": "fluorescent-orange"
+                    }
+                ]
+            },
+            {
+                "type": "Click-Menu-Left",
+                "text": "",
+                "style": "Red-bold",
+                "attribut": [
+                    {
+                        "nom": "hasDate",
+                        "text": "Date",
+                        "style": "DeepPink"
+                    },
+                    {
+                        "nom": "hasDocument_Title",
+                        "text": "Document_Title",
+                        "style": "Blue-bold"
+                    },
+                    {
+                        "nom": "hasDocument_URL",
+                        "text": "URL",
+                        "style": "lien"
+                    },
+                    {
+                        "nom": "hasTarget_targetText",
+                        "text": "Text",
+                        "style": "fluorescent-orange"
+                    }
+                ]
+            },
+            {
+                "type": "resource-read",
+                "text": "",
+                "style": "green-bold",
+                "attribut": [
+                    {
+                        "nom": "hasDate",
+                        "text": "Date",
+                        "style": "DeepPink"
+                    },
+                    {
+                        "nom": "hasTool_ResourceName",
+                        "text": "ResourceName",
+                        "style": "green"
+                    },
+                    {
+                        "nom": "hasTool_ResourcePath",
+                        "text": "Path_Resource",
+                        "style": "Blue-bold"
+                    },
+                    {
+                        "nom": "hasTool_ResourceType",
+                        "text": "ResourceType",
+                        "style": "green-Italic"
+                    },
+                    {
+                        "nom": "hasTool_WorkspaceName",
+                        "text": "NomWorkspace",
+                        "style": "green"
+                    }
+                ]
+            },
+            {
+                "type": "resource-icap_lesson-chapter_read",
+                "text": "",
+                "style": "green-bold",
+                "attribut": [
+                    {
+                        "nom": "hasDate",
+                        "text": "Date",
+                        "style": "DeepPink"
+                    },
+                    {
+                        "nom": "hasTool_ResourceName",
+                        "text": "",
+                        "style": "green"
+                    },
+                    {
+                        "nom": "hasTool_ResourcePath",
+                        "text": "Path_Resource",
+                        "style": "Blue-bold"
+                    },
+                    {
+                        "nom": "hasTool_ResourceType",
+                        "text": "ResourceType",
+                        "style": "green-Italic"
+                    },
+                    {
+                        "nom": "hasTool_WorkspaceName",
+                        "text": "NomWorkspace",
+                        "style": "green"
+                    }
+                ]
+            },
+            {
+                "type": "resource-ujm_exercise-exercise_evaluated",
+                "text": "",
+                "style": "green-bold",
+                "attribut": [
+                    {
+                        "nom": "hasDate",
+                        "text": "Date",
+                        "style": "DeepPink"
+                    },
+                    {
+                        "nom": "hasTool_ResourceName",
+                        "text": "",
+                        "style": "green"
+                    },
+                    {
+                        "nom": "hasTool_ResourcePath",
+                        "text": "Path_Resource",
+                        "style": "Blue-bold"
+                    },
+                    {
+                        "nom": "hasTool_ResourceType",
+                        "text": "ResourceType",
+                        "style": "green-Italic"
+                    },
+                    {
+                        "nom": "hasTool_WorkspaceName",
+                        "text": "NomWorkspace",
+                        "style": "green"
+                    },
+                     {
+                        "nom": "hasTool_Exercise_Title",
+                        "text": "TitreExercice",
+                        "style": "black-bold"
+                    },
+                    {
+                        "nom": "hasTool_Exercise_Result",
+                        "text": "Resultat de l'Exercice",
+                        "style": "fluorescent-orange"
+                    }
+                ]
+            },
+            
+           
+            {
+                "type": "Click-Sur-Sujet",
+                "text": "",
+                "style": "Red-bold",
+                "attribut": [
+                    {
+                        "nom": "hasDate",
+                        "text": "Date",
+                        "style": "DeepPink"
+                    },
+                    {
+                        "nom": "hasDocument_Title",
+                        "text": "Document_Title",
+                        "style": "Blue-bold"
+                    },
+                    {
+                        "nom": "hasDocument_URL",
+                        "text": "URL",
+                        "style": "lien"
+                    },
+                    {
+                        "nom": "hasTarget_targetText",
+                        "text": "Text",
+                        "style": "fluorescent-orange"
+                    }
+                ]
+            },
+            {
+                "type": "Click-Page-Quiz",
+                "text": "",
+                "style": "Red-bold",
+                "attribut": [
+                    {
+                        "nom": "hasDate",
+                        "text": "Date",
+                        "style": "DeepPink"
+                    },
+                    {
+                        "nom": "hasDocument_Title",
+                        "text": "Document_Title",
+                        "style": "Blue-bold"
+                    },
+                    {
+                        "nom": "hasDocument_URL",
+                        "text": "URL",
+                        "style": "lien"
+                    },
+                    {
+                        "nom": "hasTarget_targetText",
+                        "text": "Text",
+                        "style": "fluorescent-orange"
+                    }
+                ]
+            },
+            {
+                "type": "Click-Button",
+                "text": "",
+                "style": "Red-bold",
+                "attribut": [
+                    {
+                        "nom": "hasDate",
+                        "text": "Date",
+                        "style": "DeepPink"
+                    },
+                    {
+                        "nom": "hasDocument_Title",
+                        "text": "Document_Title",
+                        "style": "Blue-bold"
+                    },
+                    {
+                        "nom": "hasDocument_URL",
+                        "text": "URL",
+                        "style": "lien"
+                    },
+                    {
+                        "nom": "hasTarget_targetText",
+                        "text": "Text",
+                        "style": "fluorescent-orange"
+                    }
+                ]
+            },
+            {
+                "type": "resource-claroline_forum-create_message",
+                "text": "",
+                "style": "green-bold",
+                "attribut": [
+                    {
+                        "nom": "hasDate",
+                        "text": "Date",
+                        "style": "DeepPink"
+                    },
+                    {
+                        "nom": "hasTool_ResourceName",
+                        "text": "",
+                        "style": "green"
+                    },
+                    {
+                        "nom": "hasTool_ResourceType",
+                        "text": "ResourceType",
+                        "style": "green-Italic"
+                    },
+                    {
+                        "nom": "hasTool_WorkspaceName",
+                        "text": "NomWorkspace",
+                        "style": "green"
+                    }
+                ]
+            },
+            {
+                "type": "resource-claroline_forum-delete_message",
+                "text": "",
+                "style": "black",
+                "attribut": [
+                    {
+                        "nom": "hasDate",
+                        "text": "Date",
+                        "style": "DeepPink"
+                    },
+                    {
+                        "nom": "hasTool_ResourceName",
+                        "text": "",
+                        "style": "green"
+                    },
+                    {
+                        "nom": "hasTool_ResourceType",
+                        "text": "ResourceType",
+                        "style": "green-Italic"
+                    },
+                    {
+                        "nom": "hasTool_WorkspaceName",
+                        "text": "NomWorkspace",
+                        "style": "green"
+                    }
+                ]
+            },
+            {
+                "type": "Click-Menu",
+                "text": "",
+                "style": "Red-bold",
+                "attribut": [
+                    {
+                        "nom": "hasDate",
+                        "text": "Date",
+                        "style": "DeepPink"
+                    },
+                    {
+                        "nom": "hasDocument_Title",
+                        "text": "Document_Title",
+                        "style": "Blue-bold"
+                    },
+                    {
+                        "nom": "hasDocument_URL",
+                        "text": "URL",
+                        "style": "lien"
+                    },
+                    {
+                        "nom": "hasTarget_targetText",
+                        "text": "Text",
+                        "style": "fluorescent-orange"
+                    }
+                ]
+            },
+            {
+                "type": "Click-Lien-session-0",
+                "text": "",
+                "style": "Red-bold",
+                "attribut": [
+                    {
+                        "nom": "hasDate",
+                        "text": "Date",
+                        "style": "DeepPink"
+                    },
+                    {
+                        "nom": "hasDocument_Title",
+                        "text": "Document_Title",
+                        "style": "Blue-bold"
+                    },
+                    {
+                        "nom": "hasDocument_URL",
+                        "text": "URL",
+                        "style": "lien"
+                    }
+                ]
+            },
+            {
+                "type": "Click-Lien-Categorie",
+                "text": "",
+                "style": "Red-bold",
+                "attribut": [
+                    {
+                        "nom": "hasDate",
+                        "text": "Date",
+                        "style": "DeepPink"
+                    },
+                    {
+                        "nom": "hasDocument_Title",
+                        "text": "Document_Title",
+                        "style": "Blue-bold"
+                    },
+                    {
+                        "nom": "hasDocument_URL",
+                        "text": "URL",
+                        "style": "lien"
+                    },
+                    {
+                        "nom": "hasTarget_targetText",
+                        "text": "Text",
+                        "style": "fluorescent-orange"
+                    }
+                ]
+            },
+            {
+                "type": "Recherche-Google",
+                "text": "",
+                "style": "Yellow",
+                "attribut": [
+                    {
+                        "nom": "hasDate",
+                        "text": "Date",
+                        "style": "DeepPink"
+                    },
+                    {
+                        "nom": "hasDocument_Title",
+                        "text": "Document_Title",
+                        "style": "Blue-bold"
+                    },
+                    {
+                        "nom": "hasDocument_URL",
+                        "text": "URL",
+                        "style": "lien"
+                    },
+                    {
+                        "nom": "hasTarget_Value",
+                        "text": "",
+                        "style": "fluorescent-orange"
+                    }
+                ]
+            },
+            {
+                "type": "Click-Lien-session-1",
+                "text": "",
+                "style": "Red-bold",
+                "attribut": [
+                    {
+                        "nom": "hasDate",
+                        "text": "Date",
+                        "style": "DeepPink"
+                    },
+                    {
+                        "nom": "hasDocument_Title",
+                        "text": "Document_Title",
+                        "style": "Blue-bold"
+                    },
+                    {
+                        "nom": "hasDocument_URL",
+                        "text": "URL",
+                        "style": "lien"
+                    },
+                    {
+                        "nom": "hasTarget_targetText",
+                        "text": "Text",
+                        "style": "fluorescent-orange"
+                    }
+                ]
+            },
+            {
+                "type": "Deconnection",
+                "text": "",
+                "style": "Red-bold",
+                "attribut": [
+                    {
+                        "nom": "hasDate",
+                        "text": "Date",
+                        "style": "DeepPink"
+                    },
+                    {
+                        "nom": "hasDocument_Title",
+                        "text": "Document_Title",
+                        "style": "Blue-bold"
+                    },
+                    {
+                        "nom": "hasDocument_URL",
+                        "text": "URL",
+                        "style": "lien"
+                    },
+                    {
+                        "nom": "hasTarget_targetText",
+                        "text": "Text",
+                        "style": "fluorescent-orange"
+                    }
+                ]
+            },
+            {
+                "type": "click-lien-presentation",
+                "text": "",
+                "style": "Red-bold",
+                "attribut": [
+                    {
+                        "nom": "hasDate",
+                        "text": "Date",
+                        "style": "DeepPink"
+                    },
+                    {
+                        "nom": "hasDocument_Title",
+                        "text": "Document_Title",
+                        "style": "Blue-bold"
+                    },
+                    {
+                        "nom": "hasDocument_URL",
+                        "text": "URL",
+                        "style": "lien"
+                    },
+                    {
+                        "nom": "hasTarget_targetText",
+                        "text": "Text",
+                        "style": "fluorescent-orange"
+                    }
+                ]
+            },
+            {
+                "type": " Click-Lien-Tutoriel",
+                "text": "",
+                "style": "Red-bold",
+                "attribut": [
+                    {
+                        "nom": "hasDate",
+                        "text": "Date",
+                        "style": "DeepPink"
+                    },
+                    {
+                        "nom": "hasDocument_Title",
+                        "text": "Document_Title",
+                        "style": "Blue-bold"
+                    },
+                    {
+                        "nom": "hasDocument_URL",
+                        "text": "URL",
+                        "style": "lien"
+                    },
+                    {
+                        "nom": "hasTarget_targetText",
+                        "text": "Text",
+                        "style": "fluorescent-orange"
+                    }
+                ]
+            },
+         
+            {
+                "type": "Aime-Video",
+                "text": "",
+                "style": "Yellow",
+                "attribut": [
+                    {
+                        "nom": "hasDate",
+                        "text": "Date",
+                        "style": "DeepPink"
+                    },
+                    {
+                        "nom": "hasDocument_Title",
+                        "text": "Document_Title",
+                        "style": "Blue-bold"
+                    },
+                    {
+                        "nom": "hasDocument_URL",
+                        "text": "URL",
+                        "style": "lien"
+                    }
+                ]
+            },
+            {
+                "type": "dislike-video",
+                "text": "",
+                "style": "Yellow",
+                "attribut": [
+                    {
+                        "nom": "hasDate",
+                        "text": "Date",
+                        "style": "DeepPink"
+                    },
+                    {
+                        "nom": "hasDocument_Title",
+                        "text": "Document_Title",
+                        "style": "Blue-bold"
+                    },
+                    {
+                        "nom": "hasDocument_URL",
+                        "text": "URL",
+                        "style": "lien"
+                    }
+                ]
+            },
+            {
+                "type": "Annuler-Abonnement",
+                "text": "",
+                "style": "Yellow",
+                "attribut": [
+                    {
+                        "nom": "hasDate",
+                        "text": "Date",
+                        "style": "DeepPink"
+                    },
+                    {
+                        "nom": "hasDocument_Title",
+                        "text": "Document_Title",
+                        "style": "Blue-bold"
+                    },
+                    {
+                        "nom": "hasDocument_URL",
+                        "text": "URL",
+                        "style": "lien"
+                    }
+                ]
+            },
+            {
+                "type": "Abonner-Video",
+                "text": "",
+                "style": "Yellow",
+                "attribut": [
+                    {
+                        "nom": "hasDate",
+                        "text": "Date",
+                        "style": "DeepPink"
+                    },
+                    {
+                        "nom": "hasDocument_Title",
+                        "text": "Document_Title",
+                        "style": "Blue-bold"
+                    },
+                    {
+                        "nom": "hasDocument_URL",
+                        "text": "URL",
+                        "style": "lien"
+                    }
+                ]
+            }
+        ]

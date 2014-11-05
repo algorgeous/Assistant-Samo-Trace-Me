@@ -1,0 +1,27 @@
+
+<head>
+   
+    <script type="text/javascript" src="Module-ConfigVisuText/JS/Config.php"></script>
+</head>
+
+    <!--button type="submit" class="btn btn-primary" id="Save"style="position: fixed;">Enregistrer</button-->
+    <br/><br/>
+    <div class="scroll">
+        <table class="table table-bordered" id = "table" >
+   
+                <thead >
+                          <tr>
+                            <th>Type des obsels</th>
+                            <th>Attributs</th>
+                            <th>Text</th>
+                            <th>Style </th>
+                            <th></th>
+                          </tr>
+                 </thead>
+                <tbody id ="tab" ></tbody>
+        </table>
+     </div>
+    <button type="submit" class="btn btn-primary" id="Save">Enregistrer</button>
+
+
+
