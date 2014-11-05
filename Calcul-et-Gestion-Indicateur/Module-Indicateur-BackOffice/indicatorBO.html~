@@ -1,0 +1,48 @@
+
+
+
+<head>
+
+ <script type="text/javascript" src="./Calcul-et-Gestion-Indicateur/Module-Indicateur-BackOffice/JS/indicatorBO.js"></script>
+  
+</head>
+
+
+
+
+<div class="page-container">
+  
+	
+    <div class="container-fluid">
+      <div class="row row-offcanvas row-offcanvas-left">
+        
+        <!-- sidebar -->
+        <div class="col-xs-6 col-sm-3 sidebar-offcanvas" id="sidebar" role="navigation" style="overflow-y: scroll;">
+            <ul class="nav">
+             <li><a href="#rep-Ind" id="AddInd" class="btn">Ajouter un indicateur</a></li>
+             <li><a href="#rep-Ind"  id="classif" class="btn">Classification</a></li>
+              <li><a href="#rep-Ind"  id="Balance" class="btn">Balance</a></li>
+               
+              <!--li><a href="#">Link 2</a></li>
+              <li><a href="#">Link 3</a></li-->              
+            </ul>
+
+            <ul class="nav" id="listBOind">
+               
+              <!--li><a href="#">Link 2</a></li>
+              <li><a href="#">Link 3</a></li-->              
+            </ul>
+        </div>
+  	
+        <!-- main area -->
+        <!--div id="obselinspector"> </div-->
+        <div id ="rep-Ind" class="col-xs-12 col-sm-9">
+       </div><!-- /.col-xs-12 main -->
+       
+      
+   
+    
+    </div><!--/.row-->
+  </div><!--/.container-->
+</div><!--/.page-container-->
+  

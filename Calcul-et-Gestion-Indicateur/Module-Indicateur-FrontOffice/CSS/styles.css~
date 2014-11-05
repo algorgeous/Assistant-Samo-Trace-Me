@@ -1,0 +1,151 @@
+.unselectable {
+    -moz-user-select: -moz-none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/* css formats for the gauge */
+.gauge .domain {
+    stroke-width: 2px;
+    stroke: #000;
+}
+g.x.axis{
+display: none;
+
+}
+.gauge .tick line {
+    stroke: #000;
+    stroke-width: 2px;
+}
+
+.gauge line {
+    stroke: #000;
+}
+
+.gauge .arc, .gauge .cursor {
+    opacity: 0;
+}
+
+.gauge .major {
+    fill: #000;
+    font-size: 20px;
+    font-family: 'Play', verdana, sans-serif;
+    font-weight: normal;
+}
+
+.gauge .indicator {
+    stroke: #CCC;
+    fill: #CC1;
+    stroke-width: 4px;
+}
+
+/* css formats for the segment display */
+.segdisplay .on {
+    fill: #00FFFF;
+
+}
+
+.segdisplay .off {
+    fill: #00FFFF;
+    opacity: 1;
+}
+
+
+.bar {
+		  fill: steelblue;
+		}
+
+		.bar:hover {
+		  fill: #AAAAAA;
+		}
+
+		.axis {
+		  font: 10px sans-serif;
+		}
+
+		.axis path,
+		.axis line {
+		  fill: none;
+		  stroke: #000;
+		  shape-rendering: crispEdges;
+		}
+
+		.x.axis path {
+		  display: none;
+		}
+		.d3-tip {
+	  line-height: 1;
+	  font-weight: bold;
+	  padding: 12px;
+	  background: rgba(0, 0, 0, 0.8);
+	  color: #fff;
+	  border-radius: 2px;
+		}
+
+		/* Creates a small triangle extender for the tooltip */
+		.d3-tip:after {
+		  box-sizing: border-box;
+		  display: inline;
+		  font-size: 10px;
+		  width: 100%;
+		  line-height: 1;
+		  color: rgba(0, 0, 0, 0.8);
+		  content: "\25BC";
+		  position: absolute;
+		  text-align: center;
+			}
+
+		/* Style northward tooltips differently */
+		.d3-tip.n:after {
+		  margin: -1px 0 0 0;
+		  top: 100%;
+		  left: 0;
+			}
+
+
+
+			
+#rep-Ind1{
+				/*position: absolute;
+    			right: 550px;*/
+
+				width: 700px;
+				top: 150px
+
+			}
+
+			#gest{
+
+				position: absolute;
+				
+    			right: 80px;
+    			width: 300px;
+
+			}
+			#res{
+
+				/*box-shadow: 1px 1px 12px #555;*/
+				color: #4CFC69;
+				text-shadow: 2px 2px 2px #555;
+			}
+			/*#res:hover{
+
+				box-shadow: 1px 1px 12px #555;
+				color: #4CFC69;
+				text-shadow: 2px 2px 2px #555;
+				transition-property: box-shadow;
+    			transition-duration: 1s;
+    			transition-timing-function: linear;
+			}*/
+
+			/*#sidebar{
+				box-shadow: 1px 1px 12px #555;
+			}*/
+
+			
+			#space{
+				height: 10px;
+			}
+

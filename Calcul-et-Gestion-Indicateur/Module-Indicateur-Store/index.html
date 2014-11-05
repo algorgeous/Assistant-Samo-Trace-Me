@@ -1,0 +1,190 @@
+
+<head>
+  
+  <script type="text/javascript" src="Calcul-et-Gestion-Indicateur/Module-Indicateur-Store/JS/storeScripts.js"></script>
+
+	
+
+</head>
+
+
+
+
+
+
+<form class="form-horizontal"  role="search">
+	<div class="input-group">
+	<div class="col-sm-3 control-label" >
+       <label style="float: left;">Search by:</label>
+        <select class="col-sm-6" id="SearchBy">
+            <option value="Name">Name</option>
+			<option value="Author">Author</option>
+			<option value="Description">Description</option>
+        </select>
+     </div>
+   <div class="col-sm-10">
+      <input type="text" class="form-control" laceholder="Search" id="searchind">
+    </div>
+	<div class="col-sm-10" style="width: 350px;padding-top: 7px;">
+	<button type="button" class="btn btn-primary btn-sm" id="Sbutton">Search</button> 
+	<button type="button" class="btn btn-primary btn-sm" id="Lbutton">List all</button>
+	</div>
+		</div>								
+	
+	 						 
+</form>
+
+	
+
+
+
+
+<div class="container" style="height: 500px;overflow-y: scroll;">
+	
+	<div>
+			<table class="table table-hover">
+				
+				<thead id="thead" class='th'><tr><th>#</th><th>Indicator Name</th><th>Description</th><th>Author</th><th>Action</th></tr></thead>
+				<tbody id="whereToList"><tr><td>1</td><td>This</td><td>des</td><td>cc</td><td><button id="modal-579093" href="#modal-container-579093" role="button" class="btn btn-xs" data-toggle="modal" onclick="showIndStore('53e503016b41a')">Show</button></td><td><button type="button" class="btn btn-xs btn-success disabled">Got</button></td></tr><tr><td>2</td><td>NombreObsel</td><td></td><td>fatma</td><td><button id="modal-579093" href="#modal-container-579093" role="button" class="btn btn-xs" data-toggle="modal" onclick="showIndStore('53fcbefddb35b')">Show</button></td><td><button type="button" class="btn btn-xs btn-success disabled">Got</button></td><td><button type="button" class="btn btn-xs btn-danger" onclick="deleteFromStore('53fcbefddb35b')">Delete</button></td></tr></tbody>
+			
+			</table>
+		</div>
+	
+</div>
+
+			<div class="modal fade" id="modal-container-579093" role="dialog" aria-labelledby="myModalLabel" aria-hidden="false">
+				<div class="modal-dialog">
+					<div class="modal-content">
+						<div class="modal-header">
+							 <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+							<h4 class="modal-title" id="myModalLabel">
+								<div id="indTitle">
+								
+							</div>
+							</h4>
+						</div>
+						<div class="modal-body" id="viewJson">
+							...
+						</div>
+						<div class="modal-footer">
+							 <button type="button" class="btn btn-default" data-dismiss="modal">Close</button> 
+						</div>
+					</div>
+					
+				</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--div class="container">
+	<div class="row clearfix">
+		<div class="col-md-12 column">
+			<div class="col-md-4 column">
+
+			</div>
+			<div class="col-md-6 column">
+				<nav class="navbar" role="navigation">
+						
+							 
+						
+						<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+							<form class="navbar-form" role="search">
+								
+									
+									<label> Search by: </label>
+									<select id="SearchBy">
+									  <option value="Name">Name</option>
+									  <option value="Author">Author</option>
+									  <option value="Description">Description</option>
+									</select>
+									<input type="text" class="form-control" laceholder="Search" id="searchind">
+									
+									<button type="button" class="btn btn-xs btn-info" id="Sbutton">Search</button> 
+									<button type="button" class="btn btn-info btn-xs" id="Lbutton">List all</button>
+								 
+							</form>
+	
+						
+						
+					</nav>
+
+			</div>
+			<div class="col-md-2 column">
+
+			</div>
+			
+		</div>
+	</div>
+	<div class="row clearfix">
+		<div class="col-md-2 column">
+			<!-- <dl>
+				<dt>
+					Description lists
+				</dt>
+				<dd>
+					A description list is perfect for defining terms.
+				</dd>
+				
+			</dl> -->
+		<!--/div>
+		<div class="col-md-8 column">
+			<table class="table table-hover">
+				
+				<thead id ="thead">
+				</thead>
+				<tbody id="whereToList" >
+					
+					
+					
+				</tbody>
+			
+			</table>
+		</div>
+		<div class="col-md-2 column">
+
+			
+		</div>
+	</div>
+</div>
+
+			<div class="modal fade" id="modal-container-579093" role="dialog" aria-labelledby="myModalLabel" aria-hidden="false">
+				<div class="modal-dialog">
+					<div class="modal-content">
+						<div class="modal-header">
+							 <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+							<h4 class="modal-title" id="myModalLabel">
+								<div id="indTitle">
+								
+							</div>
+							</h4>
+						</div>
+						<div class="modal-body" id="viewJson">
+							...
+						</div>
+						<div class="modal-footer">
+							 <button type="button" class="btn btn-default" data-dismiss="modal">Close</button> 
+						</div>
+					</div>
+					
+				</div>
+				
+			</div>
+

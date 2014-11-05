@@ -1,0 +1,71 @@
+
+<head>
+  
+  <link href="Calcul-et-Gestion-Indicateur/Module-Indicateur-FrontOffice/CSS/Bootstrap/css/style.css" rel="stylesheet">
+  <link href="Calcul-et-Gestion-Indicateur/Module-Indicateur-FrontOffice/CSS/styles.css" rel="stylesheet">
+
+  
+  <!--script type="text/javascript" src="Calcul-et-Gestion-Indicateur/Module-Indicateur-FrontOffice/JS/jquery.min.js"></script>
+  <script type="text/javascript" src="Calcul-et-Gestion-Indicateur/Module-Indicateur-FrontOffice/JS/jquery.js"></script!-->
+  <script type="text/javascript" src="Calcul-et-Gestion-Indicateur/Module-Indicateur-FrontOffice/CSS/Bootstrap/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="Calcul-et-Gestion-Indicateur/Module-Indicateur-FrontOffice/CSS/Bootstrap/js/scripts.js"></script>
+  <script type="text/javascript" src="Calcul-et-Gestion-Indicateur/Module-Indicateur-FrontOffice/JS/D3.js"></script>
+  <script src="Calcul-et-Gestion-Indicateur/Module-Indicateur-FrontOffice/JS/d3tip.js"></script>
+    <script type="text/javascript" src="Calcul-et-Gestion-Indicateur/Module-Indicateur-FrontOffice/JS/visual.js"></script>
+    <script type="text/javascript" src="http://iop.io/js/vendor/polymer/PointerEvents/pointerevents.js"></script>
+    <script type="text/javascript" src="http://iop.io/js/vendor/polymer/PointerGestures/pointergestures.js"></script>
+    <script type="text/javascript" src="http://iop.io/js/iopctrl.js"></script>
+    <script type="text/javascript" src="Calcul-et-Gestion-Indicateur/Module-Indicateur-FrontOffice/JS/indicscripts.js"></script>
+
+</head>
+
+
+
+
+
+<div class="page-container">
+  
+	
+    <div class="container-fluid">
+      <div class="row row-offcanvas row-offcanvas-left">
+        
+        <!-- sidebar -->
+        <div class="col-xs-6 col-sm-3 sidebar-offcanvas" id="sidebar" role="navigation">
+            <ul class="nav">
+              <li><a href="#" id="other" class="btn" onclick="list_indicators()">List Indicators</a></li>
+              <li class="active"><a href="#" onclick="LoadClassification()" class="btn" >Classification</a></li>
+              <div id="C">
+
+            </div>
+              <li><a href="#" id="Balance" onclick="LoadBalance()" class="btn">Balance</a></li>            
+
+               <div id="B">
+
+            </div>
+              
+              <ul class="nav" id="LISTIND">
+
+          </ul>
+          </ul>
+        </div>
+
+
+  	    
+        <div id ="rep-Ind1" class="col-md-9 col-sm-9">
+
+         
+       </div><!-- /.col-xs-12 main -->
+
+       <div id ="gest" class="col-md-9 col-sm-9">
+
+
+       </div><!-- /.col-xs-12 main -->
+
+
+    </div>
+
+    <!--/.row-->
+  </div><!--/.container-->
+</div><!--/.page-container-->
+ 
+ 
