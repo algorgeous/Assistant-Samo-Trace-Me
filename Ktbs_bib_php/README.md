@@ -44,21 +44,32 @@ the KTBS , URI of the Base and the Base's name
 This method verify if the Base exist of not. It returns True if it exist and False if not.
 
 ##### Bool dump()
+
 this method create the base in the KTBS if it doesn't exist before.
 It return True if the creation was successful and return False if not.
-Array getListOfTraces()
-this method return an Array which contains all existing Traces in the Base.
-Array getListOfModels()
-this method return an Array which contains all existing Trace Models in the Base.
-String getUri()
-this method return a string which contains the URI of the base.
-BringTrace( Trace $trace, $model_uri)
+
+##### Array getListOfTraces()
+
+This method return an Array which contains all existing Traces in the Base.
+
+##### Array getListOfModels()
+
+This method return an Array which contains all existing Trace Models in the Base.
+
+##### String getUri()
+
+This method return a string which contains the URI of the base.
+
+##### BringTrace( Trace $trace, $model_uri)
+
 This method allow to bring one trace and change it's model
 use :
 $Base->bringTrace(Trace_Object,uri_of_new_model);
 if you don't want to change the model
 $Base->bringTrace(Trace_Object,Trace_Object->getModel);
-bringListOfTraces(Array $Traces, $modelname)
+
+##### bringListOfTraces(Array $Traces, $modelname)
+
 This method allow to bring a list of traces in this base and a create a global model for all traces
 if the model exists already, it will be updated.
 use :
