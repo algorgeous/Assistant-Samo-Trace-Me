@@ -193,27 +193,33 @@ Methods :
 ##### __construct($Trace_uri)
 ##### __construct($base_uri, $trace_name)
 ##### __construct($base_uri, $trace_name, $model_uri)
-The constructor of this class can be called in three manner : with the Trace uri as argument
-($trace_uri) , or with Base uri and the trace's name as argument ( $base_uri, $trace_name) , or with
-Base uri , the model uri and the trace's name as argument ( $base_uri, $trace_name, $model_uri)
-the variables $trace_uri, $base_uri,$model_uri, and $trace_name are strings variables which
+The constructor of this class can be called in three manner : 
+  - with the Trace uri as argument ($trace_uri) , 
+  - or with Base uri and the trace's name as argument ( $base_uri, $trace_name) , 
+  - or with Base uri , the model uri and the trace's name as argument ( $base_uri, $trace_name, $model_uri)
+
+The variables $trace_uri, $base_uri,$model_uri, and $trace_name are strings variables which
 contains the URI of the Trace , URI of the Base , URI of the Model and the Trace's name
+ 
  ##### Bool exist()
-this method verify if the trace exist of not.
+
+This method verify if the trace exist of not.
 It returns True if it exist and False if not.
+
 ##### Delete()
-this method delete the Trace from KTBS.
+This method delete the Trace from KTBS.
+
 ##### Array getObsels()
-this method return an Array which contains Obsels of the Trace.
+This method return an Array which contains Obsels of the Trace.
 ##### String getUri()
-this method return a string which contains the URI of the Trace.
+This method return a string which contains the URI of the Trace.
 ##### String getModel()
-this method return a string which contains the Model's URI of the Trace.
+This method return a string which contains the Model's URI of the Trace.
 ##### String getOrigin()
-this meth
+This method return a string which contains the origin date of the Trace.
+
 ##### Array getSource()
-this method return an Array which contains all the traces names which are the sources of this
-computed trace.
+This method return an Array which contains all the traces names which are the sources of this computed trace.
 This method brings you the result only if the Object is created using the Trace_Uri
 Creating the Trace object with the base URI , model URI and the trace name argument is mainly used to create a
 non exiting trace.
@@ -234,7 +240,7 @@ Use :
 if you want only a filter using $otypes you have to call the method like this : setFilterParameter(null,null,$otypes);
 in fact if there are an argument you don't want to uses, put it at null.
 ##### filter()
-This method is used after using config() and setFilterParameter to configure the filter
+This method is used after using config() and setFilterParameter() to configure the filter
 transformation method, to create the computed trace.
 ##### fusion()
 This method is used after using config() to configure the fusion transformation method, to
@@ -249,8 +255,8 @@ conditions on them.
 Use :
 here is an
 This class is use
-$attributeCondition2[]=array('index'=>'2','value'=>'icap_blog');
-$condition[]=array ('type'=>'#resource-read','attribute'=>$attributeCondition2);
+*$attributeCondition2[]=array('index'=>'2','value'=>'icap_blog');
+$condition[]=array ('type'=>'#resource-read','attribute'=>$attributeCondition2);*
 in fact if there are an argument you don't want to uses, put it at null.
 This method uses a class named SparqlGenerate.
 ##### sparql()
