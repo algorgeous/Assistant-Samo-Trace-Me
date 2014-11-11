@@ -243,7 +243,8 @@ This method is used to set the filter parameter which are :
 
   – $after and $before are to dates ( strings or int ) if you want to filter the trace between
 two dates.
-  – $otypes is an array which contains the obsels types you want to keep them on the
+
+  - $otypes is an array which contains the obsels types you want to keep them on the
 computed trace.
 
 *Use :
@@ -258,22 +259,30 @@ This method is used after using config() to configure the fusion transformation 
 create the computed trace.
 ##### SetSparqlParameter($TypeObsel,$AttributeCond,$condition)
 This method is used to set the filter parameter which are :
-– $TypeObsel is an array which contains the obsels types you want to keep them on the
+  – *$TypeObsel* is an array which contains the obsels types you want to keep them on the
 computed trace.
-– $AttributeCond is an array which contains the attributes of obsels that you will have
+  – *$AttributeCond* is an array which contains the attributes of obsels that you will have
 conditions on them.
-– $condition is an array which contains conditions on attributes
-Use :
-here is an
-This class is use
+  – *$condition* is an array which contains conditions on attributes
+*Use :
+      here is an example of a use:
+if we want to make a filter on these obsels type : #resource-icap_blog-configure and #Click-Configurer-options
+and we have two conditions on these attributes : resource-create/hasTool_ResourceType and resourceread/hasTool_ResourceType
+here is how you can manage to set the sparql parameters :
 
-
-*$attributeCondition2[]=array('index'=>'2','value'=>'icap_blog');
-$condition[]=array ('type'=>'#resource-read','attribute'=>$attributeCondition2);*
-
+  - $TypeObsel = array ("#resource-icap_blog-configure","#Click-Configurer-options
+  - $AttributeCond = array ("resource-create/hasTool_ResourceType","resource-read/hasTool_ResourceType");
+  - $attributeCondition1[]=array('index'=>'1','value'=>'icap_blog');
+  - $condition[]=array ('type'=>'#resource-create','attribute'=>$attributeCondition1);
+  - $attributeCondition2[]=array('index'=>'2','value'=>'icap_blog');
+  - $condition[]=array ('type'=>'#resource-read','attribute'=>$attributeCondition2);
 
 in fact if there are an argument you don't want to uses, put it at null.
-This method uses a class named SparqlGenerate.
+This method uses a class named SparqlGenerate.*
+
+
+
+
 ##### sparql()
 This method is used after using config() and setSpaqlParameter to configure the sparql
 transformation method, to create the computed trace.
