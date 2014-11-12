@@ -2,7 +2,7 @@
 ========
 This module allows to create a model from the data trace. The main class of this module is GenerateModel.
 
-##### GenerateModel
+### GenerateModel
 This class is used to generate the trace model from the trace itself.
 
 Methods :
