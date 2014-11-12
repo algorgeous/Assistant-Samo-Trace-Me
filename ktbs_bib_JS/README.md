@@ -30,7 +30,7 @@ We have added  classes to samotraces.js that allows the visualization of model :
   - [ObselTypeInspectorCocher.js] (https://github.com/fderbel/Assistant-Samo-Trace-Me/blob/master/ktbs_bib_JS/SamoTrace/UI/Widgets/ObselTypeInspectorCocher.js) :Widget for visualising an Obsel Type as an HTML list.
   
   
-  *use*
+*use*
 
   *current_obsel1	= new Samotraces.Selector('obsel')*;
   
@@ -43,7 +43,10 @@ We have added  classes to samotraces.js that allows the visualization of model :
   
   
   
-  ##### For a detailed description of the framwork samotraces.js please have a look on its official documentation
+
+
+
+##### For a detailed description of the framwork samotraces.js please have a look on its official documentation
  
  http://dsi-liris-silex.univ-lyon1.fr/bmathern/samotraces/doc/index.html
   
