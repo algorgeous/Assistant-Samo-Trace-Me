@@ -11,14 +11,8 @@ Samothraces.js offers differents class for creating traces, storage traces and o
 ##### Trace visualisation
 
 Samotraces.js offers differents trace visualisation widgets. Each widget provide a graphical user interface.
-The widgets used in the samo-traceMe assistant are : 
-  - [TraceDisplayIconsFix.js] (https://github.com/fderbel/Assistant-Samo-Trace-Me/blob/master/ktbs_bib_JS/SamoTrace/UI/Widgets/TraceDisplayIconsFix.js) widget display the whole trace (), with obsels represented graphically as images.
-  - [TraceDisplayIconsZoom.js] (https://github.com/fderbel/Assistant-Samo-Trace-Me/blob/master/ktbs_bib_JS/SamoTrace/UI/Widgets/TraceDisplayIconsZoom.js) :widget display the trace between two date.
-  - [TraceDisplayText.js] (https://github.com/fderbel/Assistant-Samo-Trace-Me/blob/master/ktbs_bib_JS/SamoTrace/UI/Widgets/TraceDisplayText.js) : widget display a textual description of the list of obsel during the selected temporal window.
-  - [ReadableTimeForm](https://github.com/fderbel/Assistant-Samo-Trace-Me/blob/master/ktbs_bib_JS/SamoTrace/UI/Widgets/IntervalTimeForm.js) : Widget for visualising the current time as a date/time.
-  - [ WindowScale] (https://github.com/fderbel/Assistant-Samo-Trace-Me/blob/master/ktbs_bib_JS/SamoTrace/UI/Widgets/WindowScale.js) : Widget for visualising a time scale.
-  
-For more information about the other widget, have a look on this link : http://dsi-liris-silex.univ-lyon1.fr/bmathern/samotraces/doc/Samotraces.UI.Widgets.html
+
+For more information about the widget in samotrace.js, have a look on this link : http://dsi-liris-silex.univ-lyon1.fr/bmathern/samotraces/doc/Samotraces.UI.Widgets.html
 
 
 
