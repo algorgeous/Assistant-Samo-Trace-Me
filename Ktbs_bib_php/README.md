@@ -268,16 +268,18 @@ conditions on them.
 
       *here is an example of a use:*
 
-*if we want to make a filter on these obsels type : #resource-icap_blog-configure and #Click-Configurer-options and we have two conditions on these attributes : resource-create/hasTool_ResourceType and resourceread/hasTool_ResourceType here is how you can manage to set the sparql parameters :*
+If we want to make a filter on these obsels type : *#resource-icap_blog-configure* and *#Click-Configurer-options* and we have two conditions on these attributes : *resource-create/hasTool_ResourceType* and *resourceread/hasTool_ResourceType* here is how you can manage to set the sparql parameters :
 
+```sh
   - *$TypeObsel = array ("#resource-icap_blog-configure","#Click-Configurer-options*
   - *$AttributeCond = array ("resource-create/hasTool_ResourceType","resource-read/hasTool_ResourceType");*
   - *$attributeCondition1[]=array('index'=>'1','value'=>'icap_blog');*
   - *$condition[]=array ('type'=>'#resource-create','attribute'=>$attributeCondition1);*
   - *$attributeCondition2[]=array('index'=>'2','value'=>'icap_blog');*
   - *$condition[]=array ('type'=>'#resource-read','attribute'=>$attributeCondition2);*
+```
 
-*in fact if there are an argument you don't want to uses, put it at null.This method uses a class named SparqlGenerate.*
+*In fact if there are an argument you don't want to uses, put it at null.This method uses a class named SparqlGenerate.*
 
 
 
