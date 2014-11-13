@@ -25,16 +25,16 @@ We have added  classes to samotraces.js that allows the visualization of model :
   
   
 *use*
-
-  *current_obsel1	= new Samotraces.Selector('obsel')*;
+```sh
+  current_obsel1	= new Samotraces.Selector('obsel');
   
-  *new Samotraces.UI.Widgets.ObselTypeInspectorCocher('obselinspector1',current_obsel1)*;
+  new Samotraces.UI.Widgets.ObselTypeInspectorCocher('obselinspector1',current_obsel1);
   
-  *model = new Samotraces.KTBS.Model(dataModel)*;
+  model = new Samotraces.KTBS.Model(dataModel);
   
-  *Mod = new Samotraces.UI.Widgets.DisplayModel ('model1',model,options)*;
+  Mod = new Samotraces.UI.Widgets.DisplayModel ('model1',model,options);
   
-  
+  ```
   
   
 
