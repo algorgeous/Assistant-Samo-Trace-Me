@@ -15,7 +15,7 @@ The widgets used in the samo-traceMe Module are :
 The image below shows a visualization of a trace in the module samoTraceMe
 
 
-## Creating a trace visualisation with SamoTrace-Me
+#### Creating a trace visualisation with SamoTrace-Me
 
 ##### The html code
 For each widget, you must create an html element. The id of the HTML element is needed to properly initialize the widget.
