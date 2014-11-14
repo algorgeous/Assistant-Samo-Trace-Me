@@ -16,6 +16,6 @@ The configuration steps are:
   - Selecting the obsel type for which we ask some details
   - Selecting the attributes of this  obsel type
   - Giving a contextual name to the attributes and  obsel type
-  - Choosing the color
+  - Choosing the color.
 
 	[image]
