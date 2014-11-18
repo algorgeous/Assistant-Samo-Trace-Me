@@ -51,4 +51,5 @@ var widgetText = new Samotraces.UI.Widgets.TraceDisplayText("TraceTextDIV",trace
 ```
 ##### SamoTraceMe interface
 The figure below shows the interface of visualization  of a trace with samoTracMe
+
 ![alt tag](https://github.com/fderbel/Assistant-Samo-Trace-Me/blob/master/images/Img2.png)
