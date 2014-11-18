@@ -18,4 +18,9 @@ The configuration steps are:
   - Giving a contextual name to the attributes and  obsel type
   - Choosing the color.
 
-	[image]
+![alt tag](https://github.com/fderbel/Assistant-Samo-Trace-Me/blob/master/images/Img5.png)
+
+
+![alt tag](https://github.com/fderbel/Assistant-Samo-Trace-Me/blob/master/images/img6.png)
+
+![alt tag](https://github.com/fderbel/Assistant-Samo-Trace-Me/blob/master/images/Img7.png)
