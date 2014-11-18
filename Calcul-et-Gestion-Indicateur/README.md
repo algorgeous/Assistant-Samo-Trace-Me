@@ -5,7 +5,7 @@ System to Calculate and Manage Indicators
 This system provides several modules that makes  easier for a user to design and manage activity indicators.
 The figure below describes the architecture of the system and the relationship among modules :
 
-[image]
+![alt tag](https://github.com/fderbel/Assistant-Samo-Trace-Me/blob/master/images/archModuleCalcul.jpeg)
 
 
 The system is composed of these modules :
