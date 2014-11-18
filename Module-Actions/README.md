@@ -29,8 +29,8 @@ $condition[]=array ('type'=>'#resource-read','attribute'=>$attributeCondition);
 ```
 
 
-[image]
+#### The graphical interface of action module
 
 
-
+![alt tag](https://github.com/fderbel/Assistant-Samo-Trace-Me/blob/master/images/Img3.png)
 
