@@ -19,8 +19,10 @@ The configuration steps are:
   - Choosing the color.
 
 ![alt tag](https://github.com/fderbel/Assistant-Samo-Trace-Me/blob/master/images/Img5.png)
-
+                           Fig.1 : Type obsels not configured
 
 ![alt tag](https://github.com/fderbel/Assistant-Samo-Trace-Me/blob/master/images/img6.png)
+                            Fig.2 : The steps of configurations
 
 ![alt tag](https://github.com/fderbel/Assistant-Samo-Trace-Me/blob/master/images/Img7.png)
+                            Fig.3 : Type obsels after configuration
