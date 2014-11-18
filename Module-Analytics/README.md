@@ -5,4 +5,4 @@ The source code of this module is taken from google chrome extension [MOLUTI] (h
 
 This module provides a explorable visualization of all types of obsels. By explorable we mean that every part of the visualisation can be clicked to reduce the visualisation to a particular time,a obsel type, a word, etc.
 
-[image]
+![alt tag](https://github.com/fderbel/Assistant-Samo-Trace-Me/blob/master/images/Img4.png)
