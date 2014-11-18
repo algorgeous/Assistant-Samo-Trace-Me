@@ -17,12 +17,17 @@ The configuration steps are:
   - Selecting the attributes of this  obsel type
   - Giving a contextual name to the attributes and  obsel type
   - Choosing the color.
-
+Fig.1 : Type obsels not configured
 ![alt tag](https://github.com/fderbel/Assistant-Samo-Trace-Me/blob/master/images/Img5.png)
-                           Fig.1 : Type obsels not configured
+                           
+ 
 
+Fig.2 : The steps of configurations
 ![alt tag](https://github.com/fderbel/Assistant-Samo-Trace-Me/blob/master/images/img6.png)
-                            Fig.2 : The steps of configurations
+                           
 
+
+
+Fig.3 : Type obsels after configuration
 ![alt tag](https://github.com/fderbel/Assistant-Samo-Trace-Me/blob/master/images/Img7.png)
-                            Fig.3 : Type obsels after configuration
+                            
