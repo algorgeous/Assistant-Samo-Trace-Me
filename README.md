@@ -8,7 +8,7 @@ The figure below describes the architecture of the assistant and the  relationsh
  
 
 
-![alt tag](https://github.com/fderbel/Assistant-Samo-Trace-Me/blob/master/images/architotale.jpeg)
+![alt tag](https://github.com/fderbel/Assistant-Samo-Trace-Me/blob/master/images/archModuleCalcul.jpeg)
 
 Samotrace-Me contains essentially three types of modules: 
 - Self modules that can offer a way to exploit activity traces through their own interface ([Module SamoTrace-ME](https://github.com/fderbel/Assistant-Samo-Trace-Me/blob/master/Module-SamoTraceMe/README.md),[Module ConfigVisuText](https://github.com/fderbel/Assistant-Samo-Trace-Me/blob/master/Module-ConfigVisuText/README.md),  [Module Analytics] (https://github.com/fderbel/Assistant-Samo-Trace-Me/tree/master/Module-Analytics),  [Module-Actions](https://github.com/fderbel/Assistant-Samo-Trace-Me/blob/master/Module-Actions/README.md),  [Module  Calcul et Gestion Indicateur](https://github.com/fderbel/Assistant-Samo-Trace-Me/tree/master/Calcul-et-Gestion-Indicateur) ).
