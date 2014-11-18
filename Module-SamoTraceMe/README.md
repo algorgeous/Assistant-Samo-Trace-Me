@@ -50,6 +50,6 @@ var widget_WindowScaleFix= new Samotraces.UI.Widgets.WindowScaleFix("scaleZoomDI
 var widgetText = new Samotraces.UI.Widgets.TraceDisplayText("TraceTextDIV",traceINITIAL,twZoom);
 ```
 ##### SamoTraceMe interface
-The figure below shows the interface of visualization  of a trace with samoTracMe
+The figure below shows the interface of visualization  of a trace with samoTraceMe
 
 ![alt tag](https://github.com/fderbel/Assistant-Samo-Trace-Me/blob/master/images/Img2.png)
