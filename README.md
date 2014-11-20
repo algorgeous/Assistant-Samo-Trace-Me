@@ -36,4 +36,4 @@ The source code of the assistant must be installed following the steps below :
   ```sh
   git clone git clone git clone https://github.com/fderbel/Assistant-Samo-Trace-Me.git
   ```
-  - The application is accessible in your browser via:  [site]/web/Index.php 
+  - The application is accessible in your browser via:  [site]/Assistant-Samo-Trace-Me/Index.php 
