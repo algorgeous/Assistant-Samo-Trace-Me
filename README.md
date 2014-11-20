@@ -18,4 +18,22 @@ Samotrace-Me contains essentially three types of modules:
     - [Module-Generate-Model-ktbs] (https://github.com/fderbel/Assistant-Samo-Trace-Me/blob/master/Module-Generate-Model-ktbs/README.md)
     - [ Module-SparqlTransf] (https://github.com/fderbel/Assistant-Samo-Trace-Me/blob/master/Module-SparqlTransf/README.md)
   
+## Installation
+The source code of the assistant must be installed following the steps below :
 
+  - The source code of SamoTraceMe assistant is hosted on GitHub. For this, you need to have Git installed; if you don’t, type:
+  
+  ```sh
+  sudo apt-get install git
+  ```
+  - SamoTraceMe assistant is a php web application, so you need to install :
+       - PHP
+       - A web server like Apache
+       - PHP extensions: curl 
+       - mongodb php for the database
+  - Clone this repository 
+  
+  ```sh
+  git clone git clone git clone https://github.com/fderbel/Assistant-Samo-Trace-Me.git
+  ```
+  - The application is accessible in your browser via:  [site]/web/Index.php 
