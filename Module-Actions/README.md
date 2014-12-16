@@ -3,6 +3,7 @@ Module Actions
 
 This module allows users to view new traces (computed trace )that describes a particular activity (Forum action, Quiz action).
 An activity is a collections of type d'obsels.
+
 [Actions.js](https://github.com/fderbel/Assistant-Samo-Trace-Me/blob/master/Module-Actions/JS/Actions.js) sent the information of trace (baseURI, TraceName) and the name of the activity selected by the user to [Actions.php] (https://github.com/fderbel/Assistant-Samo-Trace-Me/blob/master/Module-Actions/PHP/Actions.php).
 This class uses [CreateComputedTrace class] (https://github.com/fderbel/Assistant-Samo-Trace-Me/blob/master/Module-SparqlTransf/CreateComputedTrace.php) to create the computed trace.
 
